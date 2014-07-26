@@ -332,6 +332,10 @@ background:url(../images/ie8-black.png);
   /* </IE7> */
 }
 
+.prefix-pools {
+  margin-left: 38%;
+}
+
 .prefix-40 {
   margin-left: 40%;
 }
