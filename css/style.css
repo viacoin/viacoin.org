@@ -2038,3 +2038,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #f5f5f5;
   border-color: #dddddd;
 }
+
+.top-35 {
+	margin-top: 35px;
+}
+
+.top-90 {
+	margin-top: 90px;
+}
+
+.ptop-30 {
+	padding-top: 30px;
+}

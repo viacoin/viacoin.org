@@ -122,6 +122,19 @@
 			
 		}
 		
+		/* View Pools list */
+		$('#view-pools-button').click( function(event) {
+			event.preventDefault();
+
+			if ($('#pools-list').is(':hidden')) {
+				$('#pools-list').toggle('show');
+			}
+
+			else {
+				$('#pools-list').toggle('hide');
+			}
+		});
+
 		/* Scroll to Main
 		================================================== */
 		$('.logo a[href*=#]').click( function(event) { 
