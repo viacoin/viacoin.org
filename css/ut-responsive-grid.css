@@ -1715,7 +1715,8 @@
   }
 
   .prefix-pools {
-    margin-left: 38%;
+    /*margin-left: 38%;*/
+    text-align:center;
   }
 
   .prefix-40 {
