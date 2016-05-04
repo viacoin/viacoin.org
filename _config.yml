@@ -1,0 +1,24 @@
+# Site settings
+title: Viacoin
+email: info@viacoin.org
+description: "Viacoin Blog"
+baseurl: ""
+url: "https://viacoin.org"
+show_related_posts: false
+
+gems:
+  - jekyll-paginate
+
+# Build settings
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+permalink: /blog/:year/:month/:day/:title.html
+paginate: 10
+paginate_path: "/blog/page:num/"
+sass:
+  compressed: true
