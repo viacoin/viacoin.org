@@ -9,8 +9,9 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/demo.css">
+    <meta name="viewport" content="width=1024">
 
-	<title>Anonymous white paper</title>
+	<title>Countdown Viacoin Anonymous white paper</title>
 </head>
 
 <body>
@@ -90,6 +91,17 @@ $('document').ready(function() {
             'now': currentTime
         });
     });
+</script>
+<script type="text/javascript">
+    $(window).resize(function() {
+    var mobileWidth =  (window.innerWidth > 0) ? 
+                        window.innerWidth : 
+                        screen.width;
+    var viewport = (mobileWidth > 360) ?
+                    'width=device-width, initial-scale=1.0' :
+                    'width=1200';
+    $("meta[name=viewport]").attr('content', viewport);
+}).resize();
 </script>
 
 </body>
