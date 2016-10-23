@@ -9,7 +9,7 @@ Peter needs little introduction: He is a Bitcoin Core developer and innovator in
 
 Peter will devote at least 50% of his time to the Viacoin project. His main remit will be to develop [Tree Chains](http://www.mail-archive.com/bitcoin-development@lists.sourceforge.net/msg04388.html), a revolutionary invention that could have epic implications in the digital currency space. Tree Chains could solve the centralized mining problem faced by digital currencies and enable sidechains as well as cross chain token transfers.
 
-I believe by funding Tree Chain development, it will greatly contribute toward the public good. Decentralized consensus systems have the potential to change everything in the world of finance, identity/reputation, through to democracy itself bringing fairness and transparency in it's wake.
+I believe by funding Tree Chain development, it will greatly contribute toward the public good. Decentralized consensus systems have the potential to change everything in the world of finance, identity/reputation, through to democracy itself bringing fairness and transparency in its wake.
 
 Viacoin is the first digital currency to launch blockchain 2.0 technology on an altchain whereas all previous efforts have focused on leveraging the bitcoin blockchain. However, those attempts to use bitcoin been fraught with technical and [political challenges](https://www.youtube.com/watch?v=TfovKFvnqXk) because so far Bitcoin developers have considered those uses as spam and have taken technical measures to prevent them.
 

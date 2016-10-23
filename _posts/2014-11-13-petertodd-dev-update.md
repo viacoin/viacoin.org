@@ -24,7 +24,7 @@ aims to make it possible to create non-malleable transactions.
 
 ...is now [BIP65](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki)!
 
-Satisfying to see CHECKLOCKTIMEVERIFY wind it's way through the review process;
+Satisfying to see CHECKLOCKTIMEVERIFY wind its way through the review process;
 in the words of Jeff Garzik "[CHECKLOCKTIMEVERIFY [is] meeting near-universal
 approval.](https://twitter.com/jgarzik/status/532497686008967168)"
 
