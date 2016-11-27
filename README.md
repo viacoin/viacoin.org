@@ -20,7 +20,6 @@ the Viacoin Core software, see http://viacoin.org/.
 License
 -------
 
-Viacoin Core is released under the terms of the MIT license. See
-[COPYING](COPYING) for more
-information or see http://opensource.org/licenses/MIT.
+Viacoin Core is released under the terms of the MIT license. 
+Fore more information see http://opensource.org/licenses/MIT.
 
