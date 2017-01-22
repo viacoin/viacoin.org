@@ -1257,14 +1257,15 @@ textarea:focus {
 }
 .icon-box { 
 	float:none;
-	margin-right:0;
+	margin-left:100px;
+	margin-top: 20px;
 }
 .arrow-right {
 	display:none;
 }
 .info {
 	text-align:center;
-	margin-top:20px;
+	margin-top:-40px;
 }
 .about-box {
 	margin-bottom:10px;
