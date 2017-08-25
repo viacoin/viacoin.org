@@ -17,7 +17,7 @@
                 url: "https://blockexplorer.com/api/addr/1C3wt6mGgKVkaao6R6uuwMY3EtDGBwUVgo",
                 success: function(data){
                     var percentage = parseFloat(data.totalReceived / 5.44 * 100).toFixed(2);
-                    $(".progress-bar").css('width', percentage);
+                    $(".progress-bar").css('width', percentage+"%");
                     $('.progress-bar').html(percentage+"%");
                 }
             });
