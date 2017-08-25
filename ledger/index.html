@@ -17,9 +17,20 @@
                 url: "https://blockexplorer.com/api/addr/1C3wt6mGgKVkaao6R6uuwMY3EtDGBwUVgo",
                 success: function(data){
                     var percentage = parseFloat(data.totalReceived / 5.44 * 100).toFixed(2);
-                    $(".progress-bar").css('width', percentage+"%");
-                    $('.progress-bar').html(percentage+"%");
+                    $.ajax({ dataType:"json",
+                        url: "https://api.blockcypher.com/v1/ltc/main/addrs/LXTyesP2C1egvHQjjeFEnLkVdesirpozW3",
+                        success: function(data){
+                            var ltcpercentage = parseFloat(data.final_balance / 100000000 / 457.34 * 100).toFixed(2);
+//                    $(".progress-bar").css('width', percentage+"%");
+//                    $('.progress-bar').html(percentage+"%");
+                            var totalpercentage = (parseFloat(percentage) + parseFloat(ltcpercentage)).toFixed(2);
+                            $(".progress-bar").css('width', totalpercentage+"%");
+                            $('.progress-bar').html(totalpercentage+"%");
+
+                        }
+                    });
                 }
+
             });
 
         });
