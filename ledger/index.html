@@ -26,11 +26,19 @@
                             var totalpercentage = (parseFloat(percentage) + parseFloat(ltcpercentage)).toFixed(2);
                             $(".progress-bar").css('width', totalpercentage+"%");
                             $('.progress-bar').html(totalpercentage+"%");
-
                         }
                     });
-                }
+                    $.ajax({
+                      url: "https://api.blockcypher.com/v1/dash/main/addrs/XwMX5wWQ9sef6syhJJDZgjAfBeTC5PVvEv",
+                      success: function(data) {
+                      var dashpercentage = parseFloat(100 / 20000 * (data.final_balance / 100000000 * 356)).toFixed(2);
+                      var totalpercentage = (parseFloat(percentage) + parseFloat(dashpercentage)).toFixed(2);
+                      $(".progress-bar").css('width', totalpercentage+"%");
+                      $('.progress-bar').html(totalpercentage+"%");
+                    }
+                  });
 
+                }
             });
 
         });
