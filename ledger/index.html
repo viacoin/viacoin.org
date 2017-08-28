@@ -13,34 +13,32 @@
     <!-- Custom styles for this template -->
     <script>
         $(function() {
-            $.ajax({ dataType:"json",
+            $.ajax({
+                dataType: "json",
                 url: "https://blockexplorer.com/api/addr/1C3wt6mGgKVkaao6R6uuwMY3EtDGBwUVgo",
-                success: function(data){
+                success: function(data) {
                     var percentage = parseFloat(data.totalReceived / 5.44 * 100).toFixed(2);
-                    $.ajax({ dataType:"json",
+                    $.ajax({
+                        dataType: "json",
                         url: "https://api.blockcypher.com/v1/ltc/main/addrs/LXTyesP2C1egvHQjjeFEnLkVdesirpozW3",
-                        success: function(data){
+                        success: function(data) {
                             var ltcpercentage = parseFloat(data.final_balance / 100000000 / 457.34 * 100).toFixed(2);
-//                    $(".progress-bar").css('width', percentage+"%");
-//                    $('.progress-bar').html(percentage+"%");
-                            var totalpercentage = (parseFloat(percentage) + parseFloat(ltcpercentage)).toFixed(2);
-                            $(".progress-bar").css('width', totalpercentage+"%");
-                            $('.progress-bar').html(totalpercentage+"%");
+                            //                    $(".progress-bar").css('width', percentage+"%");
+                            //                    $('.progress-bar').html(percentage+"%");
+                            $.ajax({
+                                url: "https://api.blockcypher.com/v1/dash/main/addrs/XwMX5wWQ9sef6syhJJDZgjAfBeTC5PVvEv",
+                                success: function(data) {
+                                    var dashpercentage = parseFloat(100 / 20000 * (data.final_balance / 100000000 * 356)).toFixed(2);
+                                    var totalpercentage = (parseFloat(percentage) + parseFloat(ltcpercentage) + parseFloat(dashpercentage)).toFixed(2);
+                                    $(".progress-bar").css('width', totalpercentage + "%");
+                                    $('.progress-bar').html(totalpercentage + "%");
+                                }
+                            });
+
                         }
                     });
-                    $.ajax({
-                      url: "https://api.blockcypher.com/v1/dash/main/addrs/XwMX5wWQ9sef6syhJJDZgjAfBeTC5PVvEv",
-                      success: function(data) {
-                      var dashpercentage = parseFloat(100 / 20000 * (data.final_balance / 100000000 * 356)).toFixed(2);
-                      var totalpercentage = (parseFloat(percentage) + parseFloat(dashpercentage)).toFixed(2);
-                      $(".progress-bar").css('width', totalpercentage+"%");
-                      $('.progress-bar').html(totalpercentage+"%");
-                    }
-                  });
-
                 }
             });
-
         });
     </script>
     <style>
