@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="utf-8">
-    <title>Viacoin | The Future of Digital Currency.</title>
+    <title data-i18n="app-title">Viacoin | The Future of Digital Currency.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
     <link rel="stylesheet" href="css/reset.css" media="all">
@@ -33,13 +33,23 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js//jquery.i18n.js"></script>
+	<script src="js/jquery.i18n.messagestore.js"></script>
+	<script src="js/jquery.i18n.fallbacks.js"></script>
+	<script src="js/jquery.i18n.parser.js"></script>
+	<script src="js/jquery.i18n.emitter.js"></script>
+    <script src="js/jquery.i18n.language.js"></script>
+    <script src="js/translations.js"></script>
     <script src="js/SmoothScroll.js"></script>
     <script src="js/modernizr.js"></script>
     <script src="js/device.min.js"></script>
     <script src="js/jquery.mb.YTPlayer.js"></script>
     <script>
+
         $().ready(function () {
+
+
             $(function () {
                 $(".player").mb_YTPlayer();
             });
@@ -97,7 +107,7 @@
                 </div>
 
                 <div class="grid-container">
-                    <span class="btn-holder"><a id="to-about-section" class="hero-btn"><i
+                    <span class="btn-holder"><a id="to-about-section" class="hero-btn" data-i18n="app-start-button"><i
                             class="fa fa-arrow-circle-down fa-lg"></i> Get Started</a></span>
                 </div>
 
@@ -123,10 +133,10 @@
             <!-- section header -->
             <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
                 <header class="section-header">
-                    <h2 class="section-title" style="opacity: 1;"><span>Welcome to Viacoin</span></h2>
-                    <p class="section-slogan" style="opacity: 1;">The fast and flexible currency for the digital age.</p>
-                    <p class="section-slogan" style="opacity: 1;"><p><a href="https://viacoin.org/roadmap" target="_blank">Roadmap 2017</a></p></p>
-                    <p class="section-slogan" style="opacity: 1;"><p><a href="https://bitcoinmagazine.com/articles/which-altcoins-are-implementing-segwit-1481577969/" target="_blank">Viacoin SegWit Bitcoin magazine [Dec 2016]</a></p></p>
+                    <h2 class="section-title" style="opacity: 1;"><span data-i18n="app-name">Welcome to Viacoin</span></h2>
+                    <p class="section-slogan" style="opacity: 1;" data-i18n="app-slogan2">The fast and flexible currency for the digital age.</p>
+                    <p class="section-slogan" style="opacity: 1;"><p><a href="https://viacoin.org/roadmap" target="_blank" data-i18n="app-info-roadmap">Roadmap 2017</a></p></p>
+                    <p class="section-slogan" style="opacity: 1;"><p><a href="https://bitcoinmagazine.com/articles/which-altcoins-are-implementing-segwit-1481577969/" target="_blank" data-i18n="app-info-magazine">Viacoin SegWit Bitcoin magazine [Dec 2016]</a></p></p>
                 </header>
             </div>
             <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
@@ -138,9 +148,9 @@
                 <figure class="about-icon"><i class="fa fa-bolt fa-2x about-icon"></i></figure>
 
                 <div class="about-box" style="opacity: 1;">
-                    <h3>Fast Transactions</h3>
+                    <h3 data-i18n="app-info-bullet1-title">Fast Transactions</h3>
 
-                    <p>25x faster than Bitcoin</p>
+                    <p data-i18n="app-info-bullet1-subtitle">25x faster than Bitcoin</p>
                 </div>
             </div>
 
@@ -148,9 +158,9 @@
                 <figure><i class="fa fa-university fa-2x about-icon"></i></figure>
 
                 <div class="about-box" style="opacity: 1;">
-                    <h3>ClearingHouse</h3>
+                    <h3 data-i18n="app-info-bullet2-title">ClearingHouse</h3>
 
-                    <p>Decentralized settlement and meta transaction protocol</p>
+                    <p data-i18n="app-info-bullet2-subtitle">Decentralized settlement and meta transaction protocol</p>
                 </div>
             </div>
 
@@ -168,9 +178,9 @@
                 <figure class="about-icon"><i class="fa fa-gavel fa-2x about-icon"></i></figure>
 
                 <div class="about-box" style="opacity: 1;">
-                    <h3>Blockchain Notary</h3>
+                    <h3 data-i18n="app-info-bullet3-title">Blockchain Notary</h3>
 
-                    <p>Proof-of-publication</p>
+                    <p data-i18n="app-info-bullet3-subtitle">Proof-of-publication</p>
                 </div>
             </div>
 
@@ -178,9 +188,9 @@
                 <figure class="about-icon"><i class="fa fa-users fa-2x about-icon"></i></figure>
 
                 <div class="about-box" style="opacity: 1;">
-                    <h3>Embedded Consensus</h3>
+                    <h3 data-i18n="app-info-bullet4-title">Embedded Consensus</h3>
 
-                    <p>Extended OP_RETURN 120 byte support</p>
+                    <p data-i18n="app-info-bullet4-subtitle">Extended OP_RETURN 120 byte support</p>
                 </div>
             </div>
 
@@ -188,9 +198,9 @@
                 <figure class="about-icon"><i class="fa fa-clock-o fa-2x about-icon"></i></figure>
 
                 <div class="about-box" style="opacity: 1;">
-                    <h3>Locktime support</h3>
+                    <h3 data-i18n="app-info-bullet5-title">Locktime support</h3>
 
-                    <p>Microtransactions & payment channels</p>
+                    <p data-i18n="app-info-bullet5-subtitle">Microtransactions & payment channels</p>
                 </div>
             </div>
 
@@ -198,9 +208,9 @@
                 <figure class="about-icon"><i class="fa fa-gg-circle fa-2x about-icon"></i></figure>
 
                 <div class="about-box" style="opacity: 1;">
-                    <h3>SegWit</h3>
+                    <h3 data-i18n="app-info-bullet6-title">SegWit</h3>
 
-                    <p>Fixing many issues from malleability all the way to scaling</p>
+                    <p data-i18n="app-info-bullet6-subtitle">Fixing many issues from malleability all the way to scaling</p>
                 </div>
             </div>
 
@@ -208,9 +218,9 @@
                 <figure class="about-icon"><i class="fa fa-bolt fa-2x about-icon"></i></figure>
 
                 <div class="about-box" style="opacity: 1;">
-                    <h3>Lightning Network [soon]</h3>
+                    <h3 data-i18n="app-info-bullet7-title">Lightning Network [soon]</h3>
 
-                    <p>Off-chain layer 2 network. Instant transactions with payment channels.</p>
+                    <p data-i18n="app-info-bullet7-subtitle">Off-chain layer 2 network. Instant transactions with payment channels.</p>
                 </div>
             </div>
 
@@ -219,9 +229,9 @@
                 <figure class="about-icon"><i class="fa fa-chain fa-2x about-icon"></i></figure>
 
                 <div class="about-box" style="opacity: 1;">
-                    <h3>Safe</h3>
+                    <h3 data-i18n="app-info-bullet8-title">Safe</h3>
 
-                    <p>Secured by cryptography & scrypt merged mining</p>
+                    <p data-i18n="app-info-bullet8-subtitle">Secured by cryptography & scrypt merged mining</p>
                 </div>
             </div>
         </div>
@@ -237,7 +247,7 @@
             <!-- parallax header -->
             <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
                 <header class="parallax-header">
-                    <h2 class="parallax-title" style="opacity: 1;"><span><a href="https://viacoin.org/roadmap">Viacoin Roadmap 2017</a></span></h2>
+                    <h2 class="parallax-title" style="opacity: 1;"><span><a href="https://viacoin.org/roadmap" data-i18n="app-info-roadmap">Viacoin Roadmap 2017</a></span></h2>
 
                     <p class="parallax-slogan" style="opacity: 1;">Sign up on the mailing list and keep in touch on Twitter</p>
 
@@ -266,7 +276,7 @@
         <!-- section header -->
         <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
             <header class="section-header">
-                <h2 class="section-title"><span>Wallets</span></h2>
+                <h2 class="section-title"><span data-i18n="">Wallets</span></h2>
 
                 <p class="section-slogan">Download the official wallet.</p>
             </header>
@@ -365,7 +375,7 @@
             <a href="http://vialectrum.org/" target="_blank">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <button class="btn btn-default">
+                        <button class="btn btn-default" data-i18n="app-wallet-electrum">
                             Vialectrum
                         </button>
                     </div>
@@ -380,7 +390,7 @@
             <a href="https://viacoin.github.io/address-generator/" target="_blank">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <button class="btn btn-default">
+                        <button class="btn btn-default" data-i18n="app-wallet-paper">
                             Viacoin Paper Wallet
                         </button>
                     </div>
@@ -549,7 +559,7 @@
             <!-- section header -->
             <div class="grid-100 prefix-0 mobile-grid-100 tablet-grid-100">
                 <header class="section-header">
-                    <h2 class="section-title"><span>Resources</span></h2>
+                    <h2 class="section-title"><span data-i18n="app-resources-title">Resources</span></h2>
 
                     <p class="section-slogan">Viacoin Resources are listed below</p>
                 </header>
@@ -627,9 +637,9 @@
                 <!-- parallax header -->
                 <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
                     <header class="parallax-header">
-                        <h2 class="parallax-title"><span>Community</span></h2>
+                        <h2 class="parallax-title"><span data-i18n="app-community-title">Community</span></h2>
 
-                        <p class="parallax-slogan">Be social, keep up to date</p>
+                        <p class="parallax-slogan" data-i18n="app-community-subtitle">Be social, keep up to date</p>
                     </header>
                 </div>
                 <!-- close parallax header -->
@@ -643,16 +653,16 @@
                         <a class="social-link" href="https://twitter.com/viacoin" target="_blank">
                             <span class="social-icon"><i class="fa fa-twitter fa-4x"></i></span>
 
-                            <h3 class="social-title">Twitter</h3>
-                            <span class="social-info">Get the latest news</span>
+                            <h3 class="social-title" data-i18n="app-community-twitter">Twitter</h3>
+                            <span class="social-info" data-i18n="app-community-twitter-subtitle">Get the latest news</span>
                         </a>
                     </li>
                     <li class="instagram grid-25 tablet-grid-10 mobile-grid-50">
                         <a class="social-link" href="http://www.reddit.com/r/viacoin" target="_blank">
                             <span class="social-icon"><i class="fa fa-reddit fa-4x"></i></span>
 
-                            <h3 class="social-title">Reddit</h3>
-                            <span class="social-info">Latest threads</span>
+                            <h3 class="social-title" data-i18n="app-community-reddit">Reddit</h3>
+                            <span class="social-info" data-i18n="app-community-reddit-subtitle">Latest threads</span>
                         </a>
                     </li>
                     <li class="instagram grid-25 tablet-grid-10 mobile-grid-50">
@@ -660,7 +670,7 @@
                             <span class="social-icon"><i class="fa fa-github fa-4x"></i></span>
 
                             <h3 class="social-title">Github</h3>
-                            <span class="social-info">Code repository</span>
+                            <span class="social-info" data-i18n="app-community-github-subtitle">Code repository</span>
                         </a>
                     </li>
                     <li class="instagram grid-25 tablet-grid-10 mobile-grid-50">
@@ -668,7 +678,7 @@
                             <span class="social-icon"><i class="fa fa-comments-o fa-4x"></i></span>
 
                             <h3 class="social-title">Telegram</h3>
-                            <span class="social-info">Telegram chat</span>
+                            <span class="social-info" data-i18n="app-community-telegram-subtitle">Telegram chat</span>
                         </a>
                     </li>
                 </ul>
@@ -695,7 +705,7 @@
 
         <div class="client-holder grid-parent grid-100 tablet-grid-100 mobile-grid-100">
 
-            <h2 class="section-title slogan" style="opacity: 1;"><span>The Future of Digital Currency.</span></h2>
+            <h2 class="section-title slogan" style="opacity: 1;"><span data-i18n="app-slogan1">The Future of Digital Currency.</span></h2>
 
         </div>
         <!-- close client box -->
@@ -723,7 +733,7 @@
             <!-- parallax header -->
             <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
                 <header class="parallax-header">
-                    <h2 class="parallax-title"><span>Contact us</span></h2>
+                    <h2 class="parallax-title"><span data-i18n="app-contact">Contact us</span></h2>
 			<p>
                info<span style="display:none"></span>@viacoin.org
                     <p class="parallax-slogan">Viacoin is an open-source Bitcoin blockchain based open-source project that integrates ClearingHouse. ClearingHouse is a protocol that allows for asset issuance and p2p trading on the Viacoin blockchain. Get involved on Github!</p>
@@ -760,7 +770,7 @@
 
     <div class="grid-container">
         <div class="grid-100 mobile-grid-100 tablet-grid-100">
-            <h3>We <i class="fa fa-heart" style="color:#1F74AE;"></i> Viacoin!</h3>
+            <h3><span data-i18n="app-footer-we">We</span> <i class="fa fa-heart" style="color:#1F74AE;"></i> <span data-i18n="app-name">Viacoin</span>!</h3>
             <span class="copyright">&copy; 2017 Viacoin. All rights reserved.</span>
 
         </div>
