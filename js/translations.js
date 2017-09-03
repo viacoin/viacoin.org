@@ -76,17 +76,22 @@ $(function() {
 
     }, 'cn').done(function() {
 
+        var cn = false;
+
+        var countries = ['CN', 'HK', 'SG', 'MO', 'TW'];
+
         var userLang = navigator.language || navigator.userLanguage; 
 
         $.get("https://ipinfo.io", function(response) {
-            if(response.country == 'CN') {
+            if(countries.indexOf(response.country) != -1) {
               setLang('cn') ;
+              cn = true;
             }
         }, "jsonp");
 
         userLang = userLang.split('-')[0];
 
-        if(userLang == 'zh') {
+        if(userLang == 'zh' && !cn) {
             setLang('cn');
         }
 
