@@ -75,12 +75,14 @@
 <script type="text/javascript" src="../jquery.final-countdown.js"></script>
 <script type="text/javascript">  
     $('document').ready(function() {
+        var d = new Date();
+        var currentTime = (Math.round(d.getTime() / 1000));
         'use strict';
         
     	$('.countdown').final_countdown({
             'start': 1509313505,
             'end': 1509453000,
-            'now': 1509313505        
+            'now': currentTime        
         });
     });
 </script>
