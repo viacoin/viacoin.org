@@ -31,6 +31,10 @@
     body {
         background-color: black;
     }
+
+    h3, h5, h4 {
+        color: white;
+    }
     </style>
   </head>
 
@@ -40,24 +44,24 @@
     <div class="container">
 
         <div class="row">
-            <div style="margin-top:50px;" class="col-md-10">
-                <p class="h3"><font color="white">Viacoin puzzle win 1337 viacoin &nbsp; &nbsp; Live price: <font color="green"> {{ (1337 * (bitcoinPrice * viacoinPrice)) | currency('$') }}</font></font></p>
+            <div style="margin-top:30px;" class="col-md-10">
+                <h3> Viacoin puzzle win 1337 viacoin &nbsp; &nbsp; Live price: <font color="green"> {{ (1337 * (bitcoinPrice * viacoinPrice)) | currency('$') }}</font></h3>
                 <!-- <p class="h4"><font color= "white">Puzzle started {{ ago[0] }} </font></p> -->
-                <p class="h5"><font color="white">Public key: <a href="https://chainz.cryptoid.info/via/address.dws?VjFKdJqXgqBcqpHTzD1YCxB75XsUVb6dqy.htm">VjFKdJqXgqBcqpHTzD1YCxB75XsUVb6dqy</a>
+                <h5>Public key: <a href="https://chainz.cryptoid.info/via/address.dws?VjFKdJqXgqBcqpHTzD1YCxB75XsUVb6dqy.htm">VjFKdJqXgqBcqpHTzD1YCxB75XsUVb6dqy</a></h5>
                 <img style="margin-top:30px; margin-bottom:30px;" class="img-fluid" src="Viacoin_puzzle_lain.jpg" alt="Viacoin, VIA">
             </div>
         </div>
 
-        <p class="h4"><font color="white">credits: <a href="https://twitter.com/coin_artist">@coin_artist</a>
+        <h4>credits: <a href="https://twitter.com/coin_artist">@coin_artist</a>
             <a href="https://twitter.com/dhtenshi">@dhtenshi</a>
             <a href="https://twitter.com/robmyers">@robmyers</a>
             <a href="https://twitter.com/psvcc">@psvcc</a>
             <a href="https://twitter.com/g0blinResearch">@g0blinResearch</a>
-            <a href="https://twitter.com/Hotkatchina">@Hotkatchina</a> </font></p>
-        <p class="h4"><font color="white">Puzzle funded by the Viacoin Lead developer Romano</font></p>
-        <p class="h4"><font color="white">Viacoin twitter: <a href="https://twitter.com/viacoin">@viacoin</a></font></p><br>
+            <a href="https://twitter.com/Hotkatchina">@Hotkatchina</a> </font></h4>
+        <h4>Puzzle funded by the Viacoin Lead developer Romano</font></h4>
+        <h4>Viacoin twitter: <a href="https://twitter.com/viacoin">@viacoin</a></font></h4><br>
 
-        <p class="h4"><font color="white">The girl in the picture is from the anime "Serial Experiments Lain" aired in 1998</font></p>
+        <h4>The girl in the picture is from the anime "Serial Experiments Lain" aired in 1998</h4>
     </div>
 
 
@@ -66,11 +70,11 @@
     <script>
 
         myAudio = new Audio('https://github.com/viacoin/viacoin.org/blob/gh-pages/puzzle/humming.mp3?raw=true'); 
-myAudio.addEventListener('ended', function() {
-    this.currentTime = 0;
-    this.play();
-}, false);
-myAudio.play();
+        myAudio.addEventListener('ended', function() {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+        myAudio.play();
 
 
         var vm = new Vue({
