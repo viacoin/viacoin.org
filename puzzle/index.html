@@ -1,103 +1,103 @@
-<!doctype html>
-<html>
-<head>	
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Viacoin puzzle">
-    <meta name="keywords" content="Viacoin, puzzle">
+    <meta name="author" content="Romano">
+    <link rel="icon" href="../../favicon.ico">
 
-    <link href="http://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/demo.css">
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js" integrity="sha256-spTpc4lvj4dOkKjrGokIrHkJgNA0xMS98Pw9N7ir9oI=" crossorigin="anonymous"></script>
+    <title>Viacoin Puzzle</title>
 
-    <meta property="og:url" content="https://viacoin.org/puzzle"/>
-    <meta property="og:type" content="site"/>
-    <meta property="og:title" content="Viacoin puzzle"/>
-    <meta property="og:description" content="Win 1337 viacoin"/>
-    <meta property="og:image" content="https://viacoin.org/puzzle/Viacoin_puzzle_lain.jpg"/>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.0/axios.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/vue2-filters/dist/vue2-filters.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.min.js"></script> 
     
-    <meta name="twitter:card" content="summary_large_image"/>
 
-	<title>Viacoin puzzle</title>
-</head>
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer.css" rel="stylesheet">
 
-<body>
+    <style>
+    
+    body {
+        background-color: black;
+    }
+    </style>
+  </head>
 
-<div class="countdown countdown-container container">
-    <div class="clock row">
-        <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
-            <div class="wrap">
-                <div class="inner">
-                    <div id="canvas-days" class="clock-canvas"></div>
+  <body>
 
-                    <div class="text">
-                        <p class="val">0</p>
-                        <p class="type-days type-time">Days</p>
-                    </div><!-- /.text -->
-                </div><!-- /.inner -->
-            </div><!-- /.wrap -->
-        </div><!-- /.clock-item -->
+    <div id="app">
+    <div class="container">
 
-        <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
-            <div class="wrap">
-                <div class="inner">
-                    <div id="canvas-hours" class="clock-canvas"></div>
+        <div class="row">
+            <div style="margin-top:50px;" class="col-md-10">
+                <p class="h3"><font color="white">Viacoin puzzle win 1337 viacoin &nbsp; &nbsp; <font color="green"> {{ (1337 * (bitcoinPrice * viacoinPrice)) | currency('$') }}</font></font></p>
+                <p class="h4"><font color= "white">Puzzle started {{ ago[0] }} </font></p>
+                <img style="margin-top:50px; margin-bottom:50px;" class="img-fluid" src="Viacoin_puzzle_lain.jpg" alt="Viacoin, VIA">
+            </div>
+        </div>
 
-                    <div class="text">
-                        <p class="val">0</p>
-                        <p class="type-hours type-time">Hours</p>
-                    </div><!-- /.text -->
-                </div><!-- /.inner -->
-            </div><!-- /.wrap -->
-        </div><!-- /.clock-item -->
-
-        <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
-            <div class="wrap">
-                <div class="inner">
-                    <div id="canvas-minutes" class="clock-canvas"></div>
-
-                    <div class="text">
-                        <p class="val">0</p>
-                        <p class="type-minutes type-time">Minutes</p>
-                    </div><!-- /.text -->
-                </div><!-- /.inner -->
-            </div><!-- /.wrap -->
-        </div><!-- /.clock-item -->
-
-        <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
-            <div class="wrap">
-                <div class="inner">
-                    <div id="canvas-seconds" class="clock-canvas"></div>
-
-                    <div class="text">
-                        <p class="val">0</p>
-                        <p class="type-seconds type-time">Seconds</p>
-                    </div><!-- /.text -->
-                </div><!-- /.inner -->
-            </div><!-- /.wrap -->
-        </div><!-- /.clock-item -->
-    </div><!-- /.clock -->
-</div><!-- /.countdown-wrapper -->
+        <p class="h4"><font color="white">credits: <a href="https://twitter.com/coin_artist">@coin_artist</a>
+            <a href="https://twitter.com/robmyers">@robmyers</a>
+            <a href="https://twitter.com/psvcc">@psvcc</a>
+            <a href="https://twitter.com/g0blinResearch">@g0blinResearch</a>
+            <a href="https://twitter.com/Hotkatchina">@Hotkatchina</a> </font></p>
+        <p class="h4"><font color="white">Puzzle funded by the Viacoin Lead developer Romano</font></p>
+        <p class="h4"><font color="white">Viacoin twitter: <a href="https://twitter.com/viacoin">@viacoin</a></font></p>
+    </div>
 
 
-<script type="text/javascript" src="js/kinetic.js"></script>
-<script type="text/javascript" src="../jquery.final-countdown.js"></script>
-<script type="text/javascript">  
-    $('document').ready(function() {
-        var d = new Date();
-        var currentTime = (Math.round(d.getTime() / 1000));
-        'use strict';
-        
-    	$('.countdown').final_countdown({
-            'start': 1509313505,
-            'end': 1509453000,
-            'now': currentTime        
-        });
-        if(currentTime > 1509453000){
-                  window.location="http://viacoin.org/puzzle/index2.html";
-        }
-    });
-</script>
+    </div>
 
-</body>
+    <script>
+
+        myAudio = new Audio('https://github.com/viacoin/viacoin.org/blob/gh-pages/puzzle/humming.mp3?raw=true'); 
+myAudio.addEventListener('ended', function() {
+    this.currentTime = 0;
+    this.play();
+}, false);
+myAudio.play();
+
+
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                viacoinPrice: [],
+                bitcoinPrice: [],
+                viacoinAmount: [1337],
+                ago: [moment([2017, 09, 29]).fromNow()],
+            },
+            mounted() {
+
+                this.get = function() {
+                    axios.get("https://bittrex.com/api/v1.1/public/getmarketsummary?market=btc-via")
+                    .then(response => {this.viacoinPrice = response.data.result[0].Last})
+
+                    axios.get("https://api.bitfinex.com/v2/ticker/tBTCUSD")
+                    .then(response => {this.bitcoinPrice = response.data[6]})
+             }
+
+             this.get();
+             
+             //Refresh every 3 sec
+             setInterval(function(){
+                 this.get();
+                 }.bind(this), 1500)
+
+
+            }
+        })
+    </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
