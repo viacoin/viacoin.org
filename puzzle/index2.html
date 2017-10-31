@@ -44,8 +44,9 @@
 
         <div class="row">
             <div style="margin-top:50px;" class="col-md-10">
-                <p class="h3"><font color="white">Viacoin puzzle win 1337 viacoin &nbsp; &nbsp; <font color="green"> $2,113.12</font></font></p>
+                <p class="h3"><font color="white">Viacoin puzzle win 1337 viacoin &nbsp; &nbsp; Live price: <font color="green"> {{ (1337 * (bitcoinPrice * viacoinPrice)) | currency('$') }}</font></font></p>
                 <!-- <p class="h4"><font color= "white">Puzzle started {{ ago[0] }} </font></p> -->
+                <p class="h5"><font color="white">Public key: <a href="https://chainz.cryptoid.info/via/address.dws?VjFKdJqXgqBcqpHTzD1YCxB75XsUVb6dqy.htm">VjFKdJqXgqBcqpHTzD1YCxB75XsUVb6dqy</a>
                 <img style="margin-top:50px; margin-bottom:50px;" class="img-fluid" src="Viacoin_puzzle_lain.jpg" alt="Viacoin, VIA">
             </div>
         </div>
@@ -84,11 +85,12 @@ myAudio.play();
             mounted() {
 
                 this.get = function() {
-                    axios.get("https://bittrex.com/api/v1.1/public/getmarketsummary?market=btc-via")
-                    .then(response => {this.viacoinPrice = response.data.result[0].Last})
+                    axios.get("https://api.coinmarketcap.com/v1/ticker/viacoin/")
+                    .then(response => {this.viacoinPrice = response.data[0].price_btc})
 
-                    axios.get("https://api.bitfinex.com/v2/ticker/tBTCUSD")
-                    .then(response => {this.bitcoinPrice = response.data[6]})
+                    axios.get("https://api.coindesk.com/v1/bpi/currentprice.json")
+                    .then(response => {this.bitcoinPrice = response.data.bpi.USD.rate_float})
+                    console.log(this.bitcoinPrice)
              }
 
              this.get();
