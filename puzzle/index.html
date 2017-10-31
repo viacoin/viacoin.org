@@ -9,6 +9,15 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/demo.css">
     <script src="https://code.jquery.com/jquery-1.11.0.min.js" integrity="sha256-spTpc4lvj4dOkKjrGokIrHkJgNA0xMS98Pw9N7ir9oI=" crossorigin="anonymous"></script>
+
+    <meta property="og:url" content="https://viacoin.org/puzzle"/>
+    <meta property="og:type" content="site"/>
+    <meta property="og:title" content="Viacoin puzzle"/>
+    <meta property="og:description" content="Win 1337 viacoin"/>
+    <meta property="og:image" content="https://viacoin.org/puzzle/Viacoin_puzzle_lain.jpg"/>
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+
 	<title>Viacoin puzzle</title>
 </head>
 
@@ -84,6 +93,9 @@
             'end': 1509453000,
             'now': currentTime        
         });
+        if(currentTime > 1509453000){
+                  window.location="http://viacoin.org/puzzle/index2.html";
+        }
     });
 </script>
 
