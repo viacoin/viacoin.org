@@ -2,7 +2,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>GLSL Glitch</title>
+  <title>Viacoin puzzle lolz version</title>
   
   
   
@@ -29,6 +29,14 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js'></script>
 
     <script  src="js/index.js"></script>
+    <script>
+        myAudio = new Audio('https://github.com/viacoin/viacoin.org/blob/gh-pages/puzzle/humming.mp3?raw=true'); 
+        myAudio.addEventListener('ended', function() {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+        myAudio.play();
+    </script>
 
 </body>
 </html>
