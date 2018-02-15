@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Viacoin puzzle lolz version</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+  
+</head>
+
+<body>
+ 
+
+
+    <div class="container">
+
+        <div class="row">
+            <div style="margin-top:50px;" class="col-md-10">
+                <canvas class="p-canvas-webgl" id="canvas-webgl"></canvas>
+            </div>
+        </div>
+
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js'></script>
+
+    <script  src="js/index.js"></script>
+    <script>
+        myAudio = new Audio('https://github.com/viacoin/viacoin.org/blob/gh-pages/puzzle/humming.mp3?raw=true'); 
+        myAudio.addEventListener('ended', function() {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+        myAudio.play();
+    </script>
+
+</body>
+</html>

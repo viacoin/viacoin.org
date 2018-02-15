@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Viacoin puzzle">
+    <meta name="author" content="Romano">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Viacoin Puzzle</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.0/axios.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/vue2-filters/dist/vue2-filters.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.min.js"></script>
+
+    <meta property="og:url" content="https://viacoin.org/puzzle/index.html"/>
+    <meta property="og:type" content="site"/>
+    <meta property="og:title" content="Viacoin puzzle"/>
+    <meta property="og:description" content="Do you have what it takes to win over 1337 $VIA ?"/>
+    <meta property="og:image" content="https://raw.githubusercontent.com/viacoin/viacoin.org/gh-pages/puzzle/Viacoin_puzzle_lain.jpg"/>
+
+    <meta name="twitter:card" content="puzzle_large_image"/>
+    
+
+    <style>
+    
+    body {
+        background-color: black;
+    }
+
+    h3, h5, h4 {
+        color: white;
+    }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="app">
+    <div class="container">
+
+        <div class="row">
+            <div style="margin-top:30px;" class="col-md-10">
+                <h3> Viacoin puzzle win 1337 $VIA &nbsp; &nbsp; Live price: <font color="green"> {{ (1337 * (bitcoinPrice * viacoinPrice)) | currency('$') }}</h3>
+                <h4>Puzzle started {{ ago[0] }} </h4>
+                <h5>Public key: <a href="https://chainz.cryptoid.info/via/address.dws?VjFKdJqXgqBcqpHTzD1YCxB75XsUVb6dqy.htm">VjFKdJqXgqBcqpHTzD1YCxB75XsUVb6dqy</a></h5>
+                <!--<img style="margin-top:30px; margin-bottom:30px;" class="img-fluid" src="Viacoin_puzzle_lain.jpg" alt="Viacoin, VIA">-->
+                <img style="margin-top:30px; margin-bottom:30px;" class="img-fluid" src="https://raw.githubusercontent.com/viacoin/viacoin.org/gh-pages/puzzle/Viacoin_puzzle_lain.jpg" alt="Viacoin, VIA, crypto, cryptocurrency, altcoin, altcoins, bittrex, poloniex">
+            </div>
+        </div>
+
+        <h4>credits: <a href="https://twitter.com/coin_artist">@coin_artist</a>
+            <a href="https://twitter.com/dhtenshi">@dhtenshi</a>
+            <a href="https://twitter.com/robmyers">@robmyers</a>
+            <a href="https://twitter.com/psvcc">@psvcc</a>
+            <a href="https://twitter.com/g0blinResearch">@g0blinResearch</a>
+            <a href="https://twitter.com/Hotkatchina">@Hotkatchina</a></h4>
+        <h4>Puzzle funded by the Viacoin Lead developer Romano</h4><br>
+        <h4>Viacoin puzzle solving room: <a href="https://t.me/joinchat/AaKoNENjsCaKgNJKyh24wA">Telegram room</a></h4>
+        <h4>Viacoin twitter: <a href="https://twitter.com/viacoin">@viacoin</a></h4>
+        <br>
+
+
+        <h4>The girl in the picture is from the anime "Serial Experiments Lain" aired in 1998</h4>
+    </div>
+    <!-- viacoin.org/puzzle/justForLolz -->
+    <!-- nothing in there. Just because it looks cooool -->
+
+
+    </div>
+
+    <script>
+
+        myAudio = new Audio('https://github.com/viacoin/viacoin.org/blob/gh-pages/puzzle/humming.mp3?raw=true'); 
+        myAudio.addEventListener('ended', function() {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+        myAudio.play();
+
+
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                viacoinPrice: [],
+                bitcoinPrice: [],
+                viacoinAmount: [1337],
+                ago: [moment([2017, 10, 01]).fromNow()],
+            },
+            mounted() {
+
+                this.get = function() {
+                    axios.get("https://min-api.cryptocompare.com/data/price?fsym=VIA&tsyms=BTC")
+                    .then(response => {this.viacoinPrice = response.data.BTC})
+
+                    axios.get("https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD&e=Bitfinex&extraParams=viaPuzzle")
+                    .then(response => {this.bitcoinPrice = response.data.USD})
+                    console.log(this.bitcoinPrice)
+             }
+
+             this.get();
+             
+             //Refresh every 1.5 sec
+             setInterval(function(){
+                 this.get();
+                 }.bind(this), 1500)
+
+            }
+        })
+    </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
