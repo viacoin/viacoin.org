@@ -19,12 +19,12 @@ importScripts('workbox-sw.prod.v2.1.3.js');
  */
 const fileManifest = [
   {
-    "url": "app.bundle.d54ba0c8b71196206152.css",
-    "revision": "0283ac3940689af700aa1cbc0f387347"
+    "url": "app.bundle.1a7507925be07b450608.css",
+    "revision": "9c4e8169fe49bb16f6fdf347585c600c"
   },
   {
-    "url": "app.bundle.d54ba0c8b71196206152.js",
-    "revision": "3fba51d3bf64bf6dd012a68bf03a974e"
+    "url": "app.bundle.1a7507925be07b450608.js",
+    "revision": "ff93999559643a963cda8b957bf4eee0"
   },
   {
     "url": "fonts.css",
@@ -32,7 +32,7 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "f47d20501e9e41eb080cb3702e413002"
+    "revision": "2ff2672a5d3527d7e612f4813e60a6d9"
   }
 ];
 

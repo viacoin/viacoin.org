@@ -251,25 +251,25 @@
       {
         "picture": "resources/binance.png",
         "url": "https://www.binance.com/tradeDetail.html?symbol=VIA_BTC",
-        "delay": 300,
+        "delay": 200,
         "styles": "height: 62px;"
       },
       {
         "picture": "resources/bittrex.png",
         "url": "https://upbit.com/exchange?code=CRIX.UPBIT.BTC-VIA",
-        "delay": 600,
+        "delay": 500,
         "styles": "height: 45px;"
       },
       {
         "picture": "resources/upbit.png",
         "url": "https://bittrex.com/Market/Index?MarketName=BTC-VIA",
-        "delay": 900,
+        "delay": 800,
         "styles": "height: 49px;"
       },
       {
         "picture": "resources/poloniex.png",
         "url": "https://poloniex.com/exchange/btc_via",
-        "delay": 1000,
+        "delay": 1100,
         "styles": "height: 35px;"
       }
     ],
@@ -277,13 +277,13 @@
       {
         "picture": "resources/cryptoid.png",
         "url": "https://chainz.cryptoid.info/via/",
-        "delay": 400,
+        "delay": 200,
         "styles": "height: 44px;"
       },
       {
         "picture": "resources/litebit.png",
         "url": "https://www.litebit.eu/en/buy/viacoin",
-        "delay": 700,
+        "delay": 500,
         "styles": "height: 38px;"
       }
     ]
