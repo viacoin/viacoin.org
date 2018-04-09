@@ -231,7 +231,7 @@
         "picture": "resources/multipool.png",
         "url": "https://www.multipool.us/dashboard/pool/via",
         "delay": 200,
-        "styles": "height: 93px;"
+        "styles": "height: 88px;"
 
       },
       {
@@ -244,7 +244,7 @@
         "picture": "resources/litecoinpool.png",
         "url": "https://www.litecoinpool.org/",
         "delay": 800,
-        "styles": "height: 37px;"
+        "styles": "height: 30px;"
       }
     ],
     "exchanges": [
