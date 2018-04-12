@@ -33,6 +33,47 @@
       "text": "Viacoin is ready to use the Lightning Network. This enables improvements of several orders of magnitude in transaction throughput by moving the majority of transactions outside the consensus ledgers into payment channels. This allows millions to billions of transactions per second across the network. A capacity that blows away legacy payment rails."
     }
   ],
+  "wallets": {
+    "first": [
+      {
+        "icon": "WindowsIcon",
+        "title": "Windows 64-bit",
+        "url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-win64-setup-unsigned.exe"
+      },
+      {
+        "icon": "WindowsIcon",
+        "title": "Windows 32-bit",
+        "url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-win32-setup-unsigned.exe"
+      },
+      {
+        "icon": "MacOsIcon",
+        "title": "Mac OSX ",
+        "url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-osx-unsigned.dmg"
+      },
+      {
+        "icon": "VialectrumIcon",
+        "title": "Vialectrum",
+        "url": "https://vialectrum.org"
+      },
+      {
+        "icon": "ViacoinPaperWalletIcon",
+        "title": "Viacoin Paper Wallet",
+        "url": "https://viacoin.github.io/address-generator"
+      }
+    ],
+    "third": [
+      {
+        "icon": "MobileIcon",
+        "title": "Mobile (Coinomi)",
+        "url": "https://coinomi.com"
+      },
+      {
+        "icon": "LedgerIcon",
+        "title": "Ledger hardware wallets",
+        "url": "https://www.ledgerwallet.com"
+      }
+    ]
+  },
   "roadmap": [
     {
       "progress": 90,
