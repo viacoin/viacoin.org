@@ -336,9 +336,9 @@
       "address": "VvG41BRB2W9GeAbgsiAdJQdiAncUJwoW1K"
     },
     {
-      "name": "Ethereum",
-      "currency": "ETH",
-      "address": "0xf85cde43d0c9B7d7C89216c5ac5F1517e27Cd5CD"
+      "name": "Bitcoin",
+      "currency": "BTC",
+      "address": "341YqUzFMxrmQaJzATQjdzSsMiy2E7mz3d"
     },
     {
       "name": "Litecoin",
@@ -346,9 +346,9 @@
       "address": "MFGKd5jcAp2ZBGzfm4DVWSBB8bdGiaYZcD"
     },
     {
-      "name": "Bitecoin",
-      "currency": "BTC",
-      "address": "341YqUzFMxrmQaJzATQjdzSsMiy2E7mz3d"
+      "name": "Ethereum",
+      "currency": "ETH",
+      "address": "0xf85cde43d0c9B7d7C89216c5ac5F1517e27Cd5CD"
     }
   ]
 }
