@@ -38,39 +38,46 @@
       {
         "icon": "WindowsIcon",
         "title": "Windows 64-bit",
-        "url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-win64-setup-unsigned.exe"
+        "url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-win64-setup-unsigned.exe",
+        "button": "Download"
       },
       {
         "icon": "WindowsIcon",
         "title": "Windows 32-bit",
-        "url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-win32-setup-unsigned.exe"
+        "url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-win32-setup-unsigned.exe",
+        "button": "Download"
       },
       {
         "icon": "MacOsIcon",
         "title": "Mac OSX ",
-        "url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-osx-unsigned.dmg"
+        "url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-osx-unsigned.dmg",
+        "button": "Download"
       },
       {
         "icon": "VialectrumIcon",
         "title": "Vialectrum",
-        "url": "https://vialectrum.org"
+        "url": "https://vialectrum.org",
+        "button": "Open"
       },
       {
         "icon": "ViacoinPaperWalletIcon",
         "title": "Viacoin Paper Wallet",
-        "url": "https://viacoin.github.io/address-generator"
+        "url": "https://viacoin.github.io/address-generator",
+        "button": "Open"
       }
     ],
     "third": [
       {
         "icon": "MobileIcon",
         "title": "Mobile (Coinomi)",
-        "url": "https://coinomi.com"
+        "url": "https://coinomi.com",
+        "button": "Download"
       },
       {
         "icon": "LedgerIcon",
         "title": "Ledger hardware wallets",
-        "url": "https://www.ledgerwallet.com"
+        "url": "https://www.ledgerwallet.com",
+        "button": "Buy"
       }
     ]
   },
@@ -278,13 +285,13 @@
       {
         "picture": "resources/f2pool.png",
         "url": "https://www.f2pool.com/",
-        "delay": 500,
+        "delay": 300,
         "styles": "height: 100px;"
       },
       {
         "picture": "resources/litecoinpool.png",
         "url": "https://www.litecoinpool.org/",
-        "delay": 800,
+        "delay": 400,
         "styles": "height: 30px;"
       }
     ],
@@ -298,19 +305,19 @@
       {
         "picture": "resources/bittrex.png",
         "url": "https://upbit.com/exchange?code=CRIX.UPBIT.BTC-VIA",
-        "delay": 500,
+        "delay": 300,
         "styles": "height: 45px;"
       },
       {
         "picture": "resources/upbit.png",
         "url": "https://bittrex.com/Market/Index?MarketName=BTC-VIA",
-        "delay": 800,
+        "delay": 400,
         "styles": "height: 49px;"
       },
       {
         "picture": "resources/poloniex.png",
         "url": "https://poloniex.com/exchange/btc_via",
-        "delay": 1100,
+        "delay": 500,
         "styles": "height: 35px;"
       }
     ],
@@ -324,7 +331,7 @@
       {
         "picture": "resources/litebit.png",
         "url": "https://www.litebit.eu/en/buy/viacoin",
-        "delay": 500,
+        "delay": 300,
         "styles": "height: 38px;"
       }
     ]
