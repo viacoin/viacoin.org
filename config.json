@@ -278,20 +278,20 @@
       {
         "picture": "resources/multipool.png",
         "url": "https://www.multipool.us/dashboard/pool/via",
-        "delay": 200,
+        "delay": 100,
         "styles": "height: 88px;"
 
       },
       {
         "picture": "resources/f2pool.png",
         "url": "https://www.f2pool.com/",
-        "delay": 300,
-        "styles": "height: 100px;"
+        "delay": 200,
+        "styles": "height: 80px;"
       },
       {
         "picture": "resources/litecoinpool.png",
         "url": "https://www.litecoinpool.org/",
-        "delay": 400,
+        "delay": 300,
         "styles": "height: 30px;"
       }
     ],
@@ -299,25 +299,43 @@
       {
         "picture": "resources/binance.png",
         "url": "https://www.binance.com/tradeDetail.html?symbol=VIA_BTC",
-        "delay": 200,
+        "delay": 100,
         "styles": "height: 62px;"
       },
       {
         "picture": "resources/bittrex.png",
         "url": "https://upbit.com/exchange?code=CRIX.UPBIT.BTC-VIA",
-        "delay": 300,
+        "delay": 200,
         "styles": "height: 45px;"
       },
       {
         "picture": "resources/upbit.png",
         "url": "https://bittrex.com/Market/Index?MarketName=BTC-VIA",
-        "delay": 400,
-        "styles": "height: 49px;"
+        "delay": 300,
+        "styles": "height: 39px;"
       },
       {
         "picture": "resources/poloniex.png",
         "url": "https://poloniex.com/exchange/btc_via",
+        "delay": 400,
+        "styles": "height: 35px;"
+      },
+      {
+        "picture": "resources/yobit.png",
+        "url": "https://yobit.net/en/trade/VIA/BTC",
         "delay": 500,
+        "styles": "height: 55px;"
+      },
+      {
+        "picture": "resources/coinroom.png",
+        "url": "https://coinroom.com/",
+        "delay": 600,
+        "styles": "height: 35px;"
+      },
+      {
+        "picture": "resources/barterdex.png",
+        "url": "http://www.barterdex.com/",
+        "delay": 700,
         "styles": "height: 35px;"
       }
     ],
@@ -325,13 +343,13 @@
       {
         "picture": "resources/cryptoid.png",
         "url": "https://chainz.cryptoid.info/via/",
-        "delay": 200,
+        "delay": 100,
         "styles": "height: 44px;"
       },
       {
         "picture": "resources/litebit.png",
         "url": "https://www.litebit.eu/en/buy/viacoin",
-        "delay": 300,
+        "delay": 200,
         "styles": "height: 38px;"
       }
     ]
