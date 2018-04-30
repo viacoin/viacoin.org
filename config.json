@@ -39,34 +39,52 @@
         "icon": "WindowsIcon",
         "title": "Windows 64-bit",
         "url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-win64-setup-unsigned.exe",
-        "button": "Download"
+        "button": "Download",
+        "version": "0.15.1"
       },
       {
         "icon": "WindowsIcon",
         "title": "Windows 32-bit",
         "url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-win32-setup-unsigned.exe",
-        "button": "Download"
+        "button": "Download",
+        "version": "0.15.1"
       },
       {
         "icon": "MacOsIcon",
-        "title": "Mac OSX ",
+        "title": "Mac OSX",
         "url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-osx-unsigned.dmg",
-        "button": "Download"
+        "button": "Download",
+        "version": "0.15.1"
+      },
+      {
+        "icon": "LinuxIcon",
+        "title": "Linux",
+        "url": "https://github.com/viacoin/viacoin/releases/download/v0.15.1/viacoin-0.15.1-x86_64-linux-gnu.tar.gz",
+        "button": "Download",
+        "version": "0.15.1"
       },
       {
         "icon": "VialectrumIcon",
         "title": "Vialectrum",
         "url": "https://vialectrum.org",
-        "button": "Open"
+        "button": "Open",
+        "version": "0.15.1"
       },
       {
         "icon": "ViacoinPaperWalletIcon",
         "title": "Viacoin Paper Wallet",
         "url": "https://viacoin.github.io/address-generator",
-        "button": "Open"
+        "button": "Open",
+        "version": "0.15.1"
       }
     ],
     "third": [
+      {
+        "icon": "CopayIcon",
+        "title": "Copay Android Beta",
+        "url": "https://play.google.com/apps/testing/org.viacoin.copay",
+        "button": "Download"
+      },
       {
         "icon": "MobileIcon",
         "title": "Mobile (Coinomi)",
