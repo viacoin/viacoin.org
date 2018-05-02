@@ -362,7 +362,7 @@
 		],
 		"services": [
 			{
-				"picture": "resources/viacoin.png",
+				"picture": "resources/viacoin-explorer.png",
 				"url": "https://explorer.viacoin.org/",
 				"delay": 100,
 				"styles": "height: 44px;"
