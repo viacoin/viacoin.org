@@ -66,8 +66,8 @@
 			},
 			{
 				"apps": [{
-						"icon": "CopayIcon",
-						"title": "Copay Android Beta",
+						"icon": "AndroidIcon",
+						"title": "Viacoin Copay (beta)",
 						"url": "https://play.google.com/apps/testing/org.viacoin.copay",
 						"button": "Download"
 					},
@@ -86,16 +86,23 @@
 				]
 			}
 		],
-		"third": [{
+		"third": [
+			{
+				"icon": "LedgerIcon",
+				"title": "Ledger hardware wallets",
+				"url": "https://www.ledgerwallet.com",
+				"button": "Buy"
+			},
+			{
 				"icon": "MobileIcon",
 				"title": "Mobile (Coinomi)",
 				"url": "https://coinomi.com",
 				"button": "Download"
 			},
 			{
-				"icon": "LedgerIcon",
-				"title": "Ledger hardware wallets",
-				"url": "https://www.ledgerwallet.com",
+				"icon": "TrezorIcon",
+				"title": "Trezor (soon)",
+				"url": "https://trezor.io/",
 				"button": "Buy"
 			}
 		]
@@ -353,7 +360,14 @@
 				"styles": "height: 35px;"
 			}
 		],
-		"services": [{
+		"services": [
+			{
+				"picture": "resources/viacoin.png",
+				"url": "https://explorer.viacoin.org/",
+				"delay": 100,
+				"styles": "height: 44px;"
+			},
+			{
 				"picture": "resources/cryptoid.png",
 				"url": "https://chainz.cryptoid.info/via/",
 				"delay": 100,
