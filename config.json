@@ -94,7 +94,7 @@
 				"button": "Buy"
 			},
 			{
-				"icon": "MobileIcon",
+				"icon": "CoinomiIcon",
 				"title": "Mobile (Coinomi)",
 				"url": "https://coinomi.com",
 				"button": "Download"
