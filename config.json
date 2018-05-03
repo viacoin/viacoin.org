@@ -301,14 +301,14 @@
 				"picture": "resources/multipool.png",
 				"url": "https://www.multipool.us/dashboard/pool/via",
 				"delay": 100,
-				"styles": "height: 88px;"
+				"styles": "height: 78px;"
 
 			},
 			{
 				"picture": "resources/f2pool.png",
 				"url": "https://www.f2pool.com/",
 				"delay": 200,
-				"styles": "height: 80px;"
+				"styles": "height: 58px;"
 			},
 			{
 				"picture": "resources/litecoinpool.png",
