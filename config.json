@@ -9,7 +9,7 @@
 	"features": [{
 			"icon": "FastAndSecureIcon",
 			"title": "Fast & Secure",
-			"text": "Viacoin is an open source cryptocurrency created in 2014, derived from the Bitcoin protocol. Viacoin has a total supply of 23,176,392 coins and has a 24 second block time, resulting in a transaction speed 25x faster than Bitcoin. Viacoin can handle 175 transactions per second without scaling through Segwit or Lightning Network, making it perfect for fast (micro)transactions."
+			"text": "Viacoin is an open source cryptocurrency created in 2014, derived from the Bitcoin protocol that supports embedded consensus with an extended OP_RETURN of 120 byte. Viacoin has a total supply of 23 million coins and a 24 second block time, which means a transaction speed 25x faster than Bitcoin. Other features include a mining difficulty adjustment algorithm called DarkGravityWave, Scrypt Auxpow and Versionbits to allow for 29 simultaneous Soft Fork changes to be implemented at a time"
 		},
 		{
 			"icon": "AtomicSwapIcon",
@@ -19,7 +19,7 @@
 		{
 			"icon": "DigitIcon",
 			"title": "Auxiliary Proof-of-Work",
-			"text": "Viacoin uses merged mining, also known as 'AuxPoW'. This allows miners to mine for more than one blockchain at the same time. A miner could mine Litecoin and Viacoin or any other Scrypt coin simultaneously. Miners have an incentive to mine Viacoin, even if the reward is low, as they are able to mine Viacoin for “free”. This results in a very high network hashrate, which highly increases the network security."
+			"text": "Viacoin uses merged mining, allowing a miner to mine for more than one blockchain at the same time. A miner could mine Viacoin and Litecoin or any other Scrypt coin together. Miners have an incentive to mine Viacoin even if the reward is low as they are able to mine any other Scrypt coin simultaneously Viacoin for “free”. This results in a very high network hashrate, which highly increases the network security. As Viacoin mining isn’t driven by large block rewards, this allows Viacoin to have a lower rate of inflation compared to other cryptocurrencies that do not support merged mining."
 		},
 		{
 			"icon": "ScalableIcon",
