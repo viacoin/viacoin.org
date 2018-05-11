@@ -37,21 +37,21 @@
 				"os": [{
 						"icon": "WindowsIcon",
 						"title": "Windows 64-bit",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-win64-setup-unsigned.exe",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.1/viacoin-0.15.1-win64-setup-unsigned.exe",
 						"button": "Download",
 						"version": ["Viacoin Core", "0.15.1"]
 					},
 					{
 						"icon": "WindowsIcon",
 						"title": "Windows 32-bit",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-win32-setup-unsigned.exe",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.1/viacoin-0.15.1-win32-setup-unsigned.exe",
 						"button": "Download",
 						"version": ["Viacoin Core", "0.15.1"]
 					},
 					{
 						"icon": "MacOsIcon",
 						"title": "Mac OSX",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.13.3.7/viacoin-0.13.3-osx-unsigned.dmg",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.1/viacoin-0.15.1-osx-unsigned.dmg",
 						"button": "Download",
 						"version": ["Viacoin Core", "0.15.1"]
 					},
@@ -211,7 +211,7 @@
 		},
 		{
 			"progress": 100,
-			"title": "UXTO MEMPOOL OPTIMIZATION",
+			"title": "UTXO MEMPOOL OPTIMIZATION",
 			"text": "In Viacoin Core 0.15, unused mempool memory is shared with the UTXO database cache, which increases the number of ‘Unspent Transaction Outputs’ (UTXOs). This results in speeding up the Initial Block Download.",
 			"icons": []
 		},
