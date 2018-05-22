@@ -67,8 +67,8 @@
 			{
 				"apps": [{
 						"icon": "AndroidIcon",
-						"title": "Viacoin Copay (beta)",
-						"url": "https://play.google.com/apps/testing/org.viacoin.copay",
+						"title": "Viacoin Copay",
+						"url": "https://play.google.com/store/apps/details?id=org.viacoin.copay",
 						"button": "Download"
 					},
 					{
