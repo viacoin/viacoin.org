@@ -1,3 +1,4 @@
+
 {
 	"slider": {
 		"slides": [
@@ -381,6 +382,22 @@
 			}
 		]
 	},
+	"vendors": [
+		{
+			"name": "Evolution Host",
+			"picture": "vendors/evolution-host.png",
+			"url": "https://evolution-host.com",
+			"title": "Experience the future of hosting",
+			"styles": "max-width: 128px;"
+		},
+		{
+			"name": "Cryptips.org",
+			"picture": "vendors/cryptips.png",
+			"url": "http://www.cryptips.org/",
+			"title": "Connect your wallet",
+			"styles": "max-width: 250px;"
+		}
+	],
 	"donate": [{
 			"name": "Viacoin",
 			"currency": "VIA",
