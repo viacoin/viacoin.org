@@ -122,33 +122,27 @@
 		},
 		{
 			"progress": 100,
+			"title": "BTCPAY SERVER SUPPORT",
+			"text": "BTCPay Server is an Open Source payment processor, written in C#, that conforms to the invoice API of Bitpay. This allows easy migration of your code base to your own, self-hosted payment processor. Viacoin is now available as a payment option.",
+			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon", "ChromeOsIcon", "AndroidIcon", "IosIcon", "WindowsPhoneIcon"]
+		},
+		{
+			"progress": 100,
+			"title": "VIACOIN CORE 0.15.1",
+			"text": "Viacoin Core 0.15.1 is a big update compared to its previous version. The following features and improvements are included: chainstate database restructure, valid block assertion, p2p network optimization, UTXO mempool optimization, block relay improvements, no keypool refill flush and upgrade LevelDB.",
+			"icons": ["WindowsIcon", "LinuxIcon", "AndroidIcon"]
+		},
+		{
+			"progress": 100,
 			"title": "VIALECTRUM 3.1.3.1",
 			"text": "Vialectrum is a fast, secure and very easy to use lightweight Viacoin client. Your funds are securely stored and can easily be recovered from any device using a secret phrase. Vialectrum 3.1.3.1 comes with Bech32 address support, better fee estimation and VialectrumX Tor nodes.",
 			"icons": ["WindowsIcon", "LinuxIcon", "AndroidIcon"]
 		},
 		{
-			"progress": 90,
-			"title": "LIGHTNING NETWORK DAEMON (LND)",
-			"text": "Faster and cheaper than Bitcoin. The Lightning Network Daemon (lnd) is a complete implementation of a Lightning Network node.",
-			"icons": []
-		},
-		{
-			"progress": 0,
-			"title": "ZAP LIGHTNING NETWORK WALLET",
-			"text": "Trustlessly send and receive viacoins instantly with minimal fees via the Lightning Network. Zap is a free Lightning Network wallet focused on user experience and ease of use, with the overall goal of helping the cryptocurrency community scale Bitcoin and other cryptocurrencies. Currently available for Bitcoin: zap.jackmallers.com.",
-			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
-		},
-		{
-			"progress": 90,
-			"title": "Viacoin Bech32 for Native SegWit addresses",
-			"text": "Bech32 addresses are natively SegWit compatible, meaning the transaction doesn’t need extra space to put SegWit in the P2SH address. It also has more advantages like smaller QR codes, stronger protection against typing errors, enables auto completion and only consisting of lower cases. Vialectrum 3.1.3.1 already supports Bech32 addresses. Ledger and Coinomi are adding Bech32 support soon.",
-			"icons": []
-		},
-		{
-			"progress": 50,
-			"title": "VIACOINJ",
-			"text": "Viacoin Core alternative implementation in Java. ViacoinJ is a library for working with the Viacoin protocol. It can maintain a wallet, send/receive transactions without needing a local copy of Viacoin Core and has many other advanced features. It’s implemented in Java but can be used from any JVM compatible language.",
-			"icons": []
+			"progress": 80,
+			"title": "VIACOIN CORE 0.16",
+			"text": "Viacoin Core 0.16 will feature the following: bech32 address support, sha256 hashing optimizations (which leads to faster synchronization and block validation), HD wallets by default, several bug fixes and other optimizations.",
+			"icons": ["WindowsIcon", "LinuxIcon", "AndroidIcon"]
 		},
 		{
 			"progress": 80,
@@ -157,16 +151,22 @@
 			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon", "ChromeOsIcon", "AndroidIcon", "IosIcon", "WindowsPhoneIcon"]
 		},
 		{
+			"progress": 40,
+			"title": "SAMOURAI MOBILE WALLET FORK FOR VIACOIN",
+			"text": "A modern Viacoin wallet hand forged to keep your transactions private, your identity masked, and your funds secure. Currently available for Bitcoin: samouraiwallet.com.",
+			"icons": ["AndroidIcon"]
+		},
+		{
 			"progress": 20,
 			"title": "VIENNAWALLET",
 			"text": "Simplicity is Viennawallet's core design principle. As a real standalone Viacoin client, there is no server to get hacked or go down, and by building on iOS's strong security base, Viennawallet is designed to protect you from malware, browser security holes, even physical theft. Buy. Save. Send. Receive. Viennawallet is the simple and secure way to get started with crypto. Send and receive any amount of Viacoin, anywhere in the world, instantly.",
 			"icons": ["IosIcon"]
 		},
-		{
-			"progress": 30,
-			"title": "SAMOURAI MOBILE WALLET FORK FOR VIACOIN",
-			"text": "A modern Viacoin wallet hand forged to keep your transactions private, your identity masked, and your funds secure. Currently available for Bitcoin: samouraiwallet.com.",
-			"icons": ["AndroidIcon"]
+                {
+			"progress": 0,
+			"title": "ZAP LIGHTNING NETWORK WALLET",
+			"text": "Trustlessly send and receive viacoins instantly with minimal fees via the Lightning Network. Zap is a free Lightning Network wallet focused on user experience and ease of use, with the overall goal of helping the cryptocurrency community scale Bitcoin and other cryptocurrencies. Currently available for Bitcoin: zap.jackmallers.com.",
+			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
 		},
 		{
 			"progress": 0,
@@ -175,51 +175,33 @@
 			"icons": ["AndroidIcon"]
 		},
 		{
-			"progress": 0,
-			"title": "COLORED COINS",
-			"text": "By coloring a Viacoin, it turns into a token Very similar to ’Counterparty’ but there are some key differences. It does not issue an auxiliary coin (e.g Counterparty and Mastercoin). For creating tokens, Viacoin itself need to be 'colored'.",
+			"progress": 100,
+			"title": "VIAD (VIACOIN GOLANG)",
+			"text": "Viacoin Core alternative implementation in Golang. It properly downloads, validates, and serves the block chain using the exact rules (including consensus bugs) for block acceptance as Viacoin Core. Viad allows the Viacoin development team to start working on user-friendly Viacoin Lightning wallets.",
 			"icons": []
-		},
-		{
-			"progress": 20,
-			"title": "RSK SMART CONTRACTS",
-			"text": "Ethereum Compatible Smart Contracts. Rootstock is a smart contract platform which has a two-way peg. The idea is to enable it to work with smart contracts. Rootstock runs a turing complete Virtual machine called Rootstock Virtual Machine (which is also compatible with Ethereum virtual machine!) and allows solidity compiled smart contracts to run.",
-			"icons": []
-		},
-		{
-			"progress": 30,
-			"title": "STYX ANONYMOUS TRANSACTIONS",
-			"text": "Styx is an unlinkable anonymous atomic payment hub for Viacoin. Read our STYX Whitepaper.",
-			"icons": []
-		},
+		},    
 		{
 			"progress": 100,
-			"title": "CHAINSTATE DATABASE RESTRUCTURE",
-			"text": "The way the state of a blockchain is stored is also referred to as the ‘chainstate’, which is stored in a dedicated database. In Viacoin Core 0.15 the outputs are stored as a single database entry per output. So if you send Viacoin to several addresses in 1 transaction, every output gets its own database entry. This method requires more disk space being used but it results in 10–20% less CPU usage if one of the outputs is spent at a later time.",
+			"title": "NVIACOIN",
+			"text": "NViacoin is the most complete Viacoin library for the .NET platform. It provides low level access to Viacoin primitives so you can easily build your application on top of it. NViacoin is an important component for BTCPay and Styx (which uses TumbleBit).",
 			"icons": []
 		},
 		{
-			"progress": 100,
-			"title": "VALID BLOCK ASSERTION",
-			"text": "When setting up a new wallet using Viacoin Core you go through a process called the ‘Initial Block Download’ (IBD). During IBD you download all of the past blocks up until the most recent block. During the download all of the blocks will be checked for the ‘consensus-rules’. Verifying block signatures, which is part of the ‘consensus-rules’, consumes a lot of CPU during IBD. By using ‘assume valid block’ you will skip checking the signatures in all blocks up to the assumed valid block. This causes to significantly speed up the IBD.",
+			"progress": 90,
+			"title": "VIACOINJ",
+			"text": "Viacoin Core alternative implementation in Java. ViacoinJ is a library for working with the Viacoin protocol. It can maintain a wallet, send/receive transactions without needing a local copy of Viacoin Core and has many other advanced features. It’s implemented in Java but can be used from any JVM compatible language.",
 			"icons": []
 		},
 		{
-			"progress": 100,
-			"title": "P2P NETWORK OPTIMIZATION",
-			"text": "Concurrency helps creating consistency by locking or freezing parts of a database while they are in use by one transaction. This prevents other transactions from operating on the same information, resulting in a conflict. The concurrency improvements help allow newly-received blocks to be processed ahead of lower-priority traffic, ensuring that blocks are relayed and validated as fast as possible. The refactor also allows network activity to continue in the background during message processing, notably providing an improvement in the ‘Initial Block Download’ (IBD) speed.",
+			"progress": 90,
+			"title": "LIGHTNING NETWORK DAEMON (LND)",
+			"text": "Faster and cheaper than Bitcoin. The Lightning Network Daemon (lnd) is a complete implementation of a Lightning Network node.",
 			"icons": []
 		},
 		{
-			"progress": 100,
-			"title": "UTXO MEMPOOL OPTIMIZATION",
-			"text": "In Viacoin Core 0.15, unused mempool memory is shared with the UTXO database cache, which increases the number of ‘Unspent Transaction Outputs’ (UTXOs). This results in speeding up the Initial Block Download.",
-			"icons": []
-		},
-		{
-			"progress": 100,
-			"title": "BLOCK RELAY IMPROVEMENTS",
-			"text": "Relaying Optimization, increasing block propagation speed.",
+			"progress": 90,
+			"title": "Viacoin Bech32 for Native SegWit addresses",
+			"text": "Bech32 addresses are natively SegWit compatible, meaning the transaction doesn’t need extra space to put SegWit in the P2SH address. It also has more advantages like smaller QR codes, stronger protection against typing errors, enables auto completion and only consisting of lower cases. Vialectrum 3.1.3.1 and Coinomi are already support Bech32 addresses. Ledger and Viacoin Core 0.16 wil add Bech32 support soon.",
 			"icons": []
 		},
 		{
@@ -235,15 +217,21 @@
 			"icons": []
 		},
 		{
-			"progress": 100,
-			"title": "NO KEYPOOL REFILL FLUSH",
-			"text": "~20x Speedup in creating a new wallet.",
+			"progress": 30,
+			"title": "STYX ANONYMOUS TRANSACTIONS",
+			"text": "Styx is an unlinkable anonymous atomic payment hub for Viacoin. Read our STYX Whitepaper.",
 			"icons": []
 		},
 		{
-			"progress": 100,
-			"title": "UPGRADE LEVELDB",
-			"text": "Contains hardware acceleration for CRC on architectures supporting SSE 4.2. As a result, synchronization and block validation will be faster.",
+			"progress": 20,
+			"title": "RSK SMART CONTRACTS",
+			"text": "Ethereum Compatible Smart Contracts. Rootstock is a smart contract platform which has a two-way peg. The idea is to enable it to work with smart contracts. Rootstock runs a turing complete Virtual machine called Rootstock Virtual Machine (which is also compatible with Ethereum virtual machine!) and allows solidity compiled smart contracts to run.",
+			"icons": []
+		},
+		{
+			"progress": 0,
+			"title": "COLORED COINS",
+			"text": "By coloring a Viacoin, it turns into a token Very similar to ’Counterparty’ but there are some key differences. It does not issue an auxiliary coin (e.g Counterparty and Mastercoin). For creating tokens, Viacoin itself need to be 'colored'.",
 			"icons": []
 		}
 	],
