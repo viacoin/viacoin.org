@@ -376,7 +376,7 @@
 			"name": "Evolution Host",
 			"picture": "vendors/evolution-host.png",
 			"url": "https://evolution-host.com",
-			"title": "Experience the future of hosting",
+			"title": "Experience the future of hosting.",
 			"styles": "max-width: 128px;"
 		},
 		{
@@ -384,6 +384,13 @@
 			"picture": "vendors/cryptips.png",
 			"url": "http://www.cryptips.org/",
 			"title": "Tip your favorite streamers!",
+			"styles": "max-width: 250px;"
+		},
+		{
+			"name": "Blockchaindenim.com",
+			"picture": "vendors/blockchaindenim.png",
+			"url": "http://www.blockchaindenim.com/",
+			"title": "Quality blockchain fashion.",
 			"styles": "max-width: 250px;"
 		}
 	],
