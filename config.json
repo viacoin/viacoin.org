@@ -149,7 +149,7 @@
 			"progress": 80,
 			"title": "VIACOIN CORE 0.16",
 			"text": "Viacoin Core 0.16 will feature the following: bech32 address support, sha256 hashing optimizations (which leads to faster synchronization and block validation), HD wallets by default, several bug fixes and other optimizations.",
-			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon",
+			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
 		},
 		{
 			"progress": 80,
