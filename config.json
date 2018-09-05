@@ -131,19 +131,25 @@
 			"progress": 100,
 			"title": "VIACOIN CORE 0.15.1",
 			"text": "Viacoin Core 0.15.1 is a big update compared to its previous version. The following features and improvements are included: chainstate database restructure, valid block assertion, p2p network optimization, UTXO mempool optimization, block relay improvements, no keypool refill flush and upgrade LevelDB.",
-			"icons": ["WindowsIcon", "LinuxIcon", "AndroidIcon"]
+			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
 		},
 		{
 			"progress": 100,
 			"title": "VIALECTRUM 3.1.3.1",
 			"text": "Vialectrum is a fast, secure and very easy to use lightweight Viacoin client. Your funds are securely stored and can easily be recovered from any device using a secret phrase. Vialectrum 3.1.3.1 comes with Bech32 address support, better fee estimation and VialectrumX Tor nodes.",
-			"icons": ["WindowsIcon", "LinuxIcon", "AndroidIcon"]
+			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
+		},
+		{
+			"progress": 100,
+			"title": "VIALECTRUM 3.2.2",
+			"text": "Vialectrum is a fast, secure and very easy to use lightweight Viacoin client. Your funds are securely stored and can easily be recovered from any device using a secret phrase. Vialectrum 3.2.2 comes with faster transaction signing, hardware wallet improvements, an optional 'dark theme', several bug fixes and more.",
+			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
 		},
 		{
 			"progress": 80,
 			"title": "VIACOIN CORE 0.16",
 			"text": "Viacoin Core 0.16 will feature the following: bech32 address support, sha256 hashing optimizations (which leads to faster synchronization and block validation), HD wallets by default, several bug fixes and other optimizations.",
-			"icons": ["WindowsIcon", "LinuxIcon", "AndroidIcon"]
+			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon",
 		},
 		{
 			"progress": 80,
