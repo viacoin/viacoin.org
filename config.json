@@ -212,6 +212,12 @@
 			"icons": []
 		},
 		{
+			"progress": 80,
+			"title": "C-LIGHTNING",
+			"text": "C-lightning is a standard compliant implementation of the Lightning Network protocol. The Lightning Network is a scalability solution for Viacoin, enabling secure and instant transfer of funds between any two parties for any amount.",
+			"icons": []
+		},
+		{
 			"progress": 35,
 			"title": "SCHNORR SIGNATURES",
 			"text": "The successor of Elliptic Curve Digital Signatures. It is a more efficient algorithm than Elliptic Curve Digital Signatures. Schnorr signatures support “native multisig” which enables the aggregation of multiple signatures into a single one valid for the sum of the keys. /batch validation. It could reduce the use of storage & bandwidth by 25% or more.",
