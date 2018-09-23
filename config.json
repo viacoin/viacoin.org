@@ -68,33 +68,11 @@
 			},
 			{
 				"apps": [{
-						"icon": "WindowsIcon",
-						"title": "Viacoin Copay",
-						"url": "https://github.com/viacoin/copay/releases/download/v4.3.2/4.3.2.win64.zip",
-						"button": "Download"
-					},
-					{
-						"icon": "MacOsIcon",
-						"title": "Viacoin Copay",
-						"url": "https://github.com/viacoin/copay/releases/download/v4.3.2/4.3.2.osx64.zip",
-						"button": "Download"
-					},
-					{
-						"icon": "LinuxIcon",
-						"title": "Viacoin Copay",
-						"url": "https://github.com/viacoin/copay/releases/download/v4.3.2/4.3.2.linux64.zip",
-						"button": "Download"
-					},
-					{
 						"icon": "AndroidIcon",
 						"title": "Viacoin Copay",
 						"url": "https://play.google.com/store/apps/details?id=org.viacoin.copay",
 						"button": "Download"
 					},
-					 	}
-				]
-			},
-			
 					{
 						"icon": "VialectrumIcon",
 						"title": "Vialectrum 3.2.2.",
