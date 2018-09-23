@@ -91,6 +91,10 @@
 						"url": "https://play.google.com/store/apps/details?id=org.viacoin.copay",
 						"button": "Download"
 					},
+					 	}
+				]
+			},
+			
 					{
 						"icon": "VialectrumIcon",
 						"title": "Vialectrum 3.2.2.",
