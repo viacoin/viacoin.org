@@ -39,16 +39,16 @@
 				"os": [{
 						"icon": "WindowsIcon",
 						"title": "Windows 64-bit",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.1/viacoin-0.15.1-win64-setup-unsigned.exe",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.2/viacoin-0.15.2-win64-setup-unsigned.exe",
 						"button": "Download",
-						"version": ["Viacoin Core", "0.15.1"]
+						"version": ["Viacoin Core", "0.15.2"]
 					},
 					{
 						"icon": "WindowsIcon",
 						"title": "Windows 32-bit",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.1/viacoin-0.15.1-win32-setup-unsigned.exe",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.2/viacoin-0.15.2-win32-setup-unsigned.exe",
 						"button": "Download",
-						"version": ["Viacoin Core", "0.15.1"]
+						"version": ["Viacoin Core", "0.15.2"]
 					},
 					{
 						"icon": "MacOsIcon",
