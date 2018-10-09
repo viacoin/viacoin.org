@@ -53,16 +53,16 @@
 					{
 						"icon": "MacOsIcon",
 						"title": "Mac OSX",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.1/viacoin-0.15.1-osx-unsigned.dmg",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.2/viacoin-0.15.2-osx-unsigned.dmg",
 						"button": "Download",
-						"version": ["Viacoin Core", "0.15.1"]
+						"version": ["Viacoin Core", "0.15.2"]
 					},
 					{
 						"icon": "LinuxIcon",
 						"title": "Linux",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.1/viacoin-0.15.1-x86_64-linux-gnu.tar.gz",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.2/viacoin-0.15.2-x86_64-linux-gnu.tar.gz",
 						"button": "Download",
-						"version": ["Viacoin Core", "0.15.1"]
+						"version": ["Viacoin Core", "0.15.2"]
 					}
 				]
 			},
