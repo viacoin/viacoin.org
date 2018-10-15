@@ -1,4 +1,5 @@
 
+
 {
 	"slider": {
 		"slides": [
@@ -186,7 +187,7 @@
 			"title": "VIAD (VIACOIN GOLANG)",
 			"text": "Viacoin Core alternative implementation in Golang. It properly downloads, validates, and serves the block chain using the exact rules (including consensus bugs) for block acceptance as Viacoin Core. Viad allows the Viacoin development team to start working on user-friendly Viacoin Lightning wallets.",
 			"icons": []
-		},    
+		},
 		{
 			"progress": 100,
 			"title": "NVIACOIN",
