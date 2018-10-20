@@ -395,15 +395,22 @@
 		{
 			"name": "Cryptips.org",
 			"picture": "vendors/cryptips.png",
-			"url": "http://www.cryptips.org/",
+			"url": "https://www.cryptips.org/",
 			"title": "Tip your favorite streamers!",
 			"styles": "max-width: 250px;"
 		},
 		{
 			"name": "Blockchaindenim.com",
 			"picture": "vendors/blockchaindenim.png",
-			"url": "http://www.blockchaindenim.com/",
+			"url": "https://www.blockchaindenim.com/",
 			"title": "Quality blockchain fashion.",
+			"styles": "max-width: 250px;"
+		},
+		{
+			"name": "CryptocurrencyPosters.com",
+			"picture": "vendors/cryptoposters.png",
+			"url": "https://www.cryptocurrencyposters.com/",
+			"title": "Fine, crypto-themed artwork.",
 			"styles": "max-width: 250px;"
 		}
 	],
