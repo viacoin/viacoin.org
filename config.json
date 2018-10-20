@@ -412,6 +412,13 @@
 			"url": "https://www.cryptocurrencyposters.com/",
 			"title": "Fine, crypto-themed artwork.",
 			"styles": "max-width: 250px;"
+		},
+		{
+			"name": "PaulmanAcre.com",
+			"picture": "vendors/paulmanacre.png",
+			"url": "https://www.paulmanacre.com/",
+			"title": "Homemade delicious hot sauces.",
+			"styles": "max-width: 250px;"
 		}
 	],
 	"donate": [{
