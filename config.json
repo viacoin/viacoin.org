@@ -154,6 +154,12 @@
 		},
 		{
 			"progress": 80,
+			"title": "VIACOIN ECLAIR",
+			"text": "Viacoin Eclair is an implementation of the Viacoin Lightning Network. Viacoin Eclair enables you to run your own Viacoin Lightning Network node and make Viacoin Lightning Network payments. Opening and closing channels is much fast than Bitcoin due to Viacoin's 24 second block time.",
+			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
+		},
+		{
+			"progress": 80,
 			"title": "VIACOIN COPAY",
 			"text": "Secure your personal funds with multiple signatures, or just one. Take security into your own hands and avoid trusting third parties with your savings. Like a joint-checking account, your Viacoin Copay wallet can have multiple users. Manage shared funds with friends and coworkers. Share a wallet with your child and introduce them to Viacoin. Viacoin Copay makes sharing a wallet simple and secure.",
 			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon", "ChromeOsIcon", "AndroidIcon", "IosIcon", "WindowsPhoneIcon"]
@@ -169,6 +175,12 @@
 			"title": "VIENNAWALLET",
 			"text": "Simplicity is Viennawallet's core design principle. As a real standalone Viacoin client, there is no server to get hacked or go down, and by building on iOS's strong security base, Viennawallet is designed to protect you from malware, browser security holes, even physical theft. Buy. Save. Send. Receive. Viennawallet is the simple and secure way to get started with crypto. Send and receive any amount of Viacoin, anywhere in the world, instantly.",
 			"icons": ["IosIcon"]
+		},
+		{
+			"progress": 0,
+			"title": "VIACOIN ECLAIR WALLET",
+			"text": "Viacoin Eclair Wallet is a next generation, Lightning-ready Viacoin wallet. It can be used as a regular Viacoin wallet, and can also connect to the Viacoin Lightning Network for cheap and instant payments.",
+			"icons": ["AndroidIcon"]
 		},
                 {
 			"progress": 0,
@@ -195,7 +207,7 @@
 			"icons": []
 		},
 		{
-			"progress": 90,
+			"progress": 100,
 			"title": "VIACOINJ",
 			"text": "Viacoin Core alternative implementation in Java. ViacoinJ is a library for working with the Viacoin protocol. It can maintain a wallet, send/receive transactions without needing a local copy of Viacoin Core and has many other advanced features. It’s implemented in Java but can be used from any JVM compatible language.",
 			"icons": []
