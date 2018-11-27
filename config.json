@@ -171,12 +171,6 @@
 			"icons": ["AndroidIcon"]
 		},
 		{
-			"progress": 20,
-			"title": "VIENNAWALLET",
-			"text": "Simplicity is Viennawallet's core design principle. As a real standalone Viacoin client, there is no server to get hacked or go down, and by building on iOS's strong security base, Viennawallet is designed to protect you from malware, browser security holes, even physical theft. Buy. Save. Send. Receive. Viennawallet is the simple and secure way to get started with crypto. Send and receive any amount of Viacoin, anywhere in the world, instantly.",
-			"icons": ["IosIcon"]
-		},
-		{
 			"progress": 0,
 			"title": "VIACOIN ECLAIR WALLET",
 			"text": "Viacoin Eclair Wallet is a next generation, Lightning-ready Viacoin wallet. It can be used as a regular Viacoin wallet, and can also connect to the Viacoin Lightning Network for cheap and instant payments.",
@@ -187,12 +181,6 @@
 			"title": "ZAP LIGHTNING NETWORK WALLET",
 			"text": "Trustlessly send and receive viacoins instantly with minimal fees via the Lightning Network. Zap is a free Lightning Network wallet focused on user experience and ease of use, with the overall goal of helping the cryptocurrency community scale Bitcoin and other cryptocurrencies. Currently available for Bitcoin: zap.jackmallers.com.",
 			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
-		},
-		{
-			"progress": 0,
-			"title": "VIALECTRUM ANDROID WALLET",
-			"text": "An Android version of the Vialectrum wallet. An iOS version will be released at later stage.",
-			"icons": ["AndroidIcon"]
 		},
 		{
 			"progress": 100,
@@ -252,12 +240,6 @@
 			"progress": 20,
 			"title": "RSK SMART CONTRACTS",
 			"text": "Ethereum Compatible Smart Contracts. Rootstock is a smart contract platform which has a two-way peg. The idea is to enable it to work with smart contracts. Rootstock runs a turing complete Virtual machine called Rootstock Virtual Machine (which is also compatible with Ethereum virtual machine!) and allows solidity compiled smart contracts to run.",
-			"icons": []
-		},
-		{
-			"progress": 0,
-			"title": "COLORED COINS",
-			"text": "By coloring a viacoin, it turns into a token very similar to ’Counterparty’ but there are some key differences. It does not issue an auxiliary coin (e.g Counterparty and Mastercoin). For creating tokens, a viacoin itself need to be 'colored'.",
 			"icons": []
 		}
 	],
