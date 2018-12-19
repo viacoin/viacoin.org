@@ -160,6 +160,12 @@
 		},
 		{
 			"progress": 80,
+			"title": "VIACOIN ECLAIR",
+			"text": "Viacoin Eclair is an implementation of the Viacoin Lightning Network. Viacoin Eclair enables you to run your own Viacoin Lightning Network node and make Viacoin Lightning Network payments. Opening and closing channels is much fast than Bitcoin due to Viacoin's 24 second block time.",
+			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
+		},
+		{
+			"progress": 80,
 			"title": "VIACOIN COPAY",
 			"text": "Secure your personal funds with multiple signatures, or just one. Take security into your own hands and avoid trusting third parties with your savings. Like a joint-checking account, your Viacoin Copay wallet can have multiple users. Manage shared funds with friends and coworkers. Share a wallet with your child and introduce them to Viacoin. Viacoin Copay makes sharing a wallet simple and secure.",
 			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon", "ChromeOsIcon", "AndroidIcon", "IosIcon", "WindowsPhoneIcon"]
@@ -171,22 +177,16 @@
 			"icons": ["AndroidIcon"]
 		},
 		{
-			"progress": 20,
-			"title": "VIENNAWALLET",
-			"text": "Simplicity is Viennawallet's core design principle. As a real standalone Viacoin client, there is no server to get hacked or go down, and by building on iOS's strong security base, Viennawallet is designed to protect you from malware, browser security holes, even physical theft. Buy. Save. Send. Receive. Viennawallet is the simple and secure way to get started with crypto. Send and receive any amount of Viacoin, anywhere in the world, instantly.",
-			"icons": ["IosIcon"]
+			"progress": 0,
+			"title": "VIACOIN ECLAIR WALLET",
+			"text": "Viacoin Eclair Wallet is a next generation, Lightning-ready Viacoin wallet. It can be used as a regular Viacoin wallet, and can also connect to the Viacoin Lightning Network for cheap and instant payments.",
+			"icons": ["AndroidIcon"]
 		},
                 {
 			"progress": 0,
 			"title": "ZAP LIGHTNING NETWORK WALLET",
 			"text": "Trustlessly send and receive viacoins instantly with minimal fees via the Lightning Network. Zap is a free Lightning Network wallet focused on user experience and ease of use, with the overall goal of helping the cryptocurrency community scale Bitcoin and other cryptocurrencies. Currently available for Bitcoin: zap.jackmallers.com.",
 			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
-		},
-		{
-			"progress": 0,
-			"title": "VIALECTRUM ANDROID WALLET",
-			"text": "An Android version of the Vialectrum wallet. An iOS version will be released at later stage.",
-			"icons": ["AndroidIcon"]
 		},
 		{
 			"progress": 100,
@@ -201,7 +201,7 @@
 			"icons": []
 		},
 		{
-			"progress": 90,
+			"progress": 100,
 			"title": "VIACOINJ",
 			"text": "Viacoin Core alternative implementation in Java. ViacoinJ is a library for working with the Viacoin protocol. It can maintain a wallet, send/receive transactions without needing a local copy of Viacoin Core and has many other advanced features. It’s implemented in Java but can be used from any JVM compatible language.",
 			"icons": []
@@ -246,12 +246,6 @@
 			"progress": 20,
 			"title": "RSK SMART CONTRACTS",
 			"text": "Ethereum Compatible Smart Contracts. Rootstock is a smart contract platform which has a two-way peg. The idea is to enable it to work with smart contracts. Rootstock runs a turing complete Virtual machine called Rootstock Virtual Machine (which is also compatible with Ethereum virtual machine!) and allows solidity compiled smart contracts to run.",
-			"icons": []
-		},
-		{
-			"progress": 0,
-			"title": "COLORED COINS",
-			"text": "By coloring a viacoin, it turns into a token very similar to ’Counterparty’ but there are some key differences. It does not issue an auxiliary coin (e.g Counterparty and Mastercoin). For creating tokens, a viacoin itself need to be 'colored'.",
 			"icons": []
 		}
 	],
@@ -420,16 +414,30 @@
 		{
 			"name": "Cryptips.org",
 			"picture": "vendors/cryptips.png",
-			"url": "http://www.cryptips.org/",
+			"url": "https://www.cryptips.org/",
 			"title": "Tip your favorite streamers!",
 			"styles": "max-width: 250px;"
 		},
 		{
 			"name": "Blockchaindenim.com",
 			"picture": "vendors/blockchaindenim.png",
-			"url": "http://www.blockchaindenim.com/",
+			"url": "https://www.blockchaindenim.com/",
 			"title": "Quality blockchain fashion.",
 			"styles": "max-width: 250px;"
+		},
+		{
+			"name": "CryptocurrencyPosters.com",
+			"picture": "vendors/cryptoposters.png",
+			"url": "https://www.cryptocurrencyposters.com/",
+			"title": "Fine, crypto-themed artwork.",
+			"styles": "max-width: 250px;"
+		},
+		{
+			"name": "PaulmanAcre.com",
+			"picture": "vendors/paulmanacre.png",
+			"url": "https://www.paulmanacre.com/",
+			"title": "Homemade delicious hot sauces.",
+			"styles": "max-width: 180px;"
 		}
 	],
 	"donate": [{
