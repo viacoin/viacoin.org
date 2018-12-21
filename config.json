@@ -438,6 +438,13 @@
 			"url": "https://www.paulmanacre.com/",
 			"title": "Homemade delicious hot sauces.",
 			"styles": "max-width: 180px;"
+		},
+		{
+			"name": "BitcoinSuperstore.us",
+			"picture": "vendors/bitcoin-superstore-logo.png",
+			"url": "https://BitcoinSuperstore.us",
+			"title": "Buy goods from over 200,000 retailers!",
+			"styles": "max-width: 180px;"
 		}
 	],
 	"donate": [{
