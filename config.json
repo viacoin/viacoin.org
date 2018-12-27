@@ -153,22 +153,22 @@
 			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
 		},
 		{
-			"progress": 80,
-			"title": "VIACOIN CORE 0.16",
-			"text": "Viacoin Core 0.16 will feature the following: bech32 address support, sha256 hashing optimizations (which leads to faster synchronization and block validation), HD wallets by default, several bug fixes and other optimizations.",
-			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
+			"progress": 90,
+			"title": "VIACOIN COPAY",
+			"text": "Secure your personal funds with multiple signatures, or just one. Take security into your own hands and avoid trusting third parties with your savings. Like a joint-checking account, your Viacoin Copay wallet can have multiple users. Manage shared funds with friends and coworkers. Share a wallet with your child and introduce them to Viacoin. Viacoin Copay makes sharing a wallet simple and secure.",
+			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon", "ChromeOsIcon", "AndroidIcon", "IosIcon", "WindowsPhoneIcon"]
 		},
 		{
-			"progress": 80,
+			"progress": 90,
 			"title": "VIACOIN ECLAIR",
 			"text": "Viacoin Eclair is an implementation of the Viacoin Lightning Network. Viacoin Eclair enables you to run your own Viacoin Lightning Network node and make Viacoin Lightning Network payments. Opening and closing channels is much fast than Bitcoin due to Viacoin's 24 second block time.",
 			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
 		},
 		{
 			"progress": 80,
-			"title": "VIACOIN COPAY",
-			"text": "Secure your personal funds with multiple signatures, or just one. Take security into your own hands and avoid trusting third parties with your savings. Like a joint-checking account, your Viacoin Copay wallet can have multiple users. Manage shared funds with friends and coworkers. Share a wallet with your child and introduce them to Viacoin. Viacoin Copay makes sharing a wallet simple and secure.",
-			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon", "ChromeOsIcon", "AndroidIcon", "IosIcon", "WindowsPhoneIcon"]
+			"title": "VIACOIN CORE 0.16",
+			"text": "Viacoin Core 0.16 will feature the following: bech32 address support, sha256 hashing optimizations (which leads to faster synchronization and block validation), HD wallets by default, several bug fixes and other optimizations.",
+			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
 		},
 		{
 			"progress": 50,
@@ -207,6 +207,12 @@
 			"icons": []
 		},
 		{
+			"progress": 100,
+			"title": "Viacoin Bech32 for Native SegWit addresses",
+			"text": "Bech32 addresses are natively SegWit compatible, meaning the transaction doesn’t need extra space to put SegWit in the P2SH address. It also has more advantages like smaller QR codes, stronger protection against typing errors, enables auto completion and only consisting of lower cases. Vialectrum 3.1.3.1 and Coinomi are already support Bech32 addresses. Ledger and Viacoin Core 0.16 wil add Bech32 support soon.",
+			"icons": []
+		},
+		{
 			"progress": 90,
 			"title": "LIGHTNING NETWORK DAEMON (LND)",
 			"text": "Faster and cheaper than Bitcoin. The Lightning Network Daemon (lnd) is a complete implementation of a Lightning Network node.",
@@ -214,12 +220,6 @@
 		},
 		{
 			"progress": 90,
-			"title": "Viacoin Bech32 for Native SegWit addresses",
-			"text": "Bech32 addresses are natively SegWit compatible, meaning the transaction doesn’t need extra space to put SegWit in the P2SH address. It also has more advantages like smaller QR codes, stronger protection against typing errors, enables auto completion and only consisting of lower cases. Vialectrum 3.1.3.1 and Coinomi are already support Bech32 addresses. Ledger and Viacoin Core 0.16 wil add Bech32 support soon.",
-			"icons": []
-		},
-		{
-			"progress": 80,
 			"title": "C-LIGHTNING",
 			"text": "C-lightning is a standard compliant implementation of the Lightning Network protocol. The Lightning Network is a scalability solution for Viacoin, enabling secure and instant transfer of funds between any two parties for any amount.",
 			"icons": []
