@@ -76,8 +76,8 @@
 					},
 					{
 						"icon": "VialectrumIcon",
-						"title": "Vialectrum 3.2.2.",
-						"url": "https://github.com/viacoin/vialectrum/releases/tag/3.2.2",
+						"title": "Vialectrum",
+						"url": "https://github.com/viacoin/vialectrum/releases/latest",
 						"button": "Download"
 					},
 					{
