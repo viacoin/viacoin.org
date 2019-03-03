@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+
+    <title>Viacoin community donations</title>
+
+    <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.7/vue.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <style>
+      /*body {*/
+        /*background-image: url("bg.jpg");*/
+      /*}*/
+
+      .large-font{
+        font-size: 30px;
+        text-align: center;
+      }
+      .progress{
+        height:50px;
+        text-align:center;
+      }
+      .progress-bar {
+        padding:15px;
+        height:50px;
+        background-color:#323232;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container" id="app">
+    <br>
+      <h1>Donation Progress</h1>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped active large-font" role="progressbar" aria-valuenow="0" aria-valuemin="100" aria-valuemax="100" v-bind:style="{ 'width':percentage+'%'}">
+            {{ percentage | percent }}%
+          </div>
+        </div>
+      <h5>Donation goal: {{ goalBTC }} BTC / month</h5>
+      <h5>Raised: {{ totalBitcoinsRaised }} BTC</h5>
+      <br>
+      <div class="row marketing">
+        <div class="col-lg-12">
+
+        <div class="card">
+  <h4 class="card-header">Viacoin donations</h4>
+  <div class="card-body"><p>The Viacoin development team partially relies on donations to fund the development and integration for services, exchanges and other third-party applications. In the past we have used community donations for hardware wallet implementations,
+    exchange listings, being added to third party wallets, being added to iVendPay and more. A large sum of the required funds have been paid for by the development team and a few large Viacoin holders. Receiving more community donations would significantly help Viacoin grow and show the cryptocurrency space Viacoin's full potential.</p>
+    <p class="card-title">We calculate the amount in bitcoin</p>
+    <br>
+    <p class="card-text">BTC: {{ bitcoinAddress }}</p>
+    <img v-bind:src= "'https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl' + bitcoinAddress" alt="viacoin bitcoin donation address">
+
+    <p class="card-text">Dash: {{ dashAddress }}</p>
+    <img v-bind:src= "'https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl' + dashAddress" alt="viacoin dash donation address">
+
+    <p class="card-text">LTC: {{ litecoinAddress}}</p>
+    <img v-bind:src= "'https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl' + litecoinAddress" alt="viacoin litecoin donation address">
+
+    <p class="card-text">ETH: {{ ethereumAddress}}</p>
+    <img v-bind:src= "'https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl' + ethereumAddress" alt="viacoin ethereum donation address">
+
+    <p class="card-text">VIA: {{ viacoinAddress}}</p>
+    <img v-bind:src= "'https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl' + viacoinAddress" alt="viacoin donation address">
+    <center><a href="https://viacoin.org" class="btn btn-primary" style="margin-top: 5%">Visit the Viacoin website</a></center>
+  </div>
+</div>
+<br>
+<pre>
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+BTC: 3E6MgSCAcanAe6NPXiNqWbypGzK4AyvYDL
+VIA: Vnr3CRQZQPWU91B7JS8RfQJjib4KDE5kMs
+Dash: Xpr5ZFS6skFU4VFu9SqpCNbEgWjzxpPZDj
+LTC: MFGKd5jcAp2ZBGzfm4DVWSBB8bdGiaYZcD
+ETH: 0x39f58a1Fd1b7aB742fF5A32670831EAb06D7f7c1
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEE+1u6Oha8avDSoh1hP5I2jw0hogYFAlx8PJ8ACgkQP5I2jw0h
+ogY89Af/Zmzn+W/J+8dXeAKcAkm4AYeZkymDItcbCWn0SP3KTY8+1WnDTaHGGMQr
+v+TMJ15/3VOc9IAEr+kbarKPUqd2UTSgieJ1dwoJsHskG4UoRnJ9ZTR17Z3KLkGN
+bnvx6bcvHxbYed1yoXTXd+WfJxskUV6gmqAtI1bZhoDTJuOIqh5SA3j3QoF7YuDS
+a7SKlB0og5wWWILGcS72av0Xy7MzoDSjxdoFyvMvTx35J6AiSPETAF9Ut8Bmjn8A
+ptfb3tVShxUfthfo85KehQ/IpFWjNJOWZ9zZNXqooU9ZO3ivmT6/SUXraN7WVSpF
+vaFWZMmlKBFI89D0FU1aQ/FmX0B8pg==
+=SAjQ
+-----END PGP SIGNATURE-----
+</pre>
+<br>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; Viacoin 2014 - 2019</p>
+      </footer>
+
+    </div> <!-- /container -->
+  </body>
+  <script type="text/javascript">
+
+    Vue.filter('percent', function (amount) {
+      const amt = Number(amount)
+      return amt && amt.toLocaleString(undefined, {maximumFractionDigits:2}) || '0'
+    });
+
+    const app = new Vue({
+      el: '#app',
+      data() {
+        return {
+          goalBTC: 0.3,
+          totalBitcoinsRaised: 0,
+          percentage: 0,
+          bitcoinAddress: "3E6MgSCAcanAe6NPXiNqWbypGzK4AyvYDL",
+          dashAddress: "Xpr5ZFS6skFU4VFu9SqpCNbEgWjzxpPZDj",
+          litecoinAddress: "MFGKd5jcAp2ZBGzfm4DVWSBB8bdGiaYZcD",
+          ethereumAddress: "0x39f58a1Fd1b7aB742fF5A32670831EAb06D7f7c1",
+          viacoinAddress: "Vnr3CRQZQPWU91B7JS8RfQJjib4KDE5kMs",
+          bitcoinBalance: 0,
+          viacoinBalance: 0,
+          dashBalance: 0,
+          litecoinBalance: 0,
+          ethereumBalance: 0,
+        };
+      },
+      mounted: function() {
+        this.getBitcoinBalance(this.getRaisedFundsInBTC)
+      },
+      methods: {
+
+        getBitcoinBalance: function(callback) {
+          console.log("getting btc balance")
+
+          axios.all([axios.get('https://insight.bitpay.com/api/addr/'+this.bitcoinAddress),
+            axios.get('https://explorer.viacoin.org/api/addr/'+this.viacoinAddress),
+            axios.get('https://insight.dash.org/insight-api/addr/'+this.dashAddress),
+            axios.get('https://insight.litecore.io/api/addr/'+this.litecoinAddress),
+            axios.get('https://api.etherscan.io/api?module=account&action=balance&address='+this.ethereumAddress)])
+          .then(axios.spread(function (firstResponse, secondResponse, thirdResponse, fourthResponse, fifthResponse) {
+            ethereumBalance = fifthResponse.data.result / 1000000000000000000
+            callback(firstResponse.data.balance, secondResponse.data.balance, thirdResponse.data.balance, fourthResponse.data.balance, ethereumBalance)
+          }))
+        },
+
+        getRaisedFundsInBTC: function(bitcoin, viacoin, dash, litecoin, ethereum) {
+          this.bitcoinBalance = bitcoin
+          this.viacoinBalance = viacoin
+          this.dashBalance = dash
+          this.litecoinBalance = litecoin
+          this.ethereumBalance = ethereum
+
+            axios.get('https://www.worldcoinindex.com/apiservice/ticker?key=TMVEUGZjmAKnIgFg1gmJx7SVk&label=viabtc-dashbtc-ltcbtc-ethbtc&fiat=btc')
+            .then(response => {
+              console.log(this.litecoinBalance)
+              markets = response.data.Markets
+              this.totalBitcoinsRaised = this.bitcoinBalance
+              this.totalBitcoinsRaised += markets[0].Price * this.viacoinBalance
+              this.totalBitcoinsRaised += markets[1].Price * this.dashBalance
+              this.totalBitcoinsRaised += markets[2].Price * this.litecoinBalance
+              this.totalBitcoinsRaised += markets[3].Price * this.ethereumBalance
+              this.percentage = (this.totalBitcoinsRaised * this.goalBTC) * 100
+            }).catch(error => {
+              console.log(error)
+            })
+        }
+      }
+    });
+  </script>
+</html>
+
+<!--testing addresses-->
+<!--bitcoinAddress: "1C3wt6mGgKVkaao6R6uuwMY3EtDGBwUVgo",-->
+<!--dashAddress: "XwMX5wWQ9sef6syhJJDZgjAfBeTC5PVvEv",-->
+<!--litecoinAddress: "LXTyesP2C1egvHQjjeFEnLkVdesirpozW3",-->
+<!--ethereumAddress: "0xa8b317Fd4f13EE571fE0B2C9051c3c89Eb5B7B1c",-->
+<!--viacoinAddress: "Vnr3CRQZQPWU91B7JS8RfQJjib4KDE5kMs",-->
+
+<!--real addresses-->
+<!--bitcoinAddress: "3E6MgSCAcanAe6NPXiNqWbypGzK4AyvYDL",-->
+<!--dashAddress: "Xpr5ZFS6skFU4VFu9SqpCNbEgWjzxpPZDj",-->
+<!--litecoinAddress: "MFGKd5jcAp2ZBGzfm4DVWSBB8bdGiaYZcD",-->
+<!--ethereumAddress: "0x39f58a1Fd1b7aB742fF5A32670831EAb06D7f7c1",-->
+<!--viacoinAddress: "Vnr3CRQZQPWU91B7JS8RfQJjib4KDE5kMs",-->
