@@ -160,10 +160,10 @@ vaFWZMmlKBFI89D0FU1aQ/FmX0B8pg==
               console.log(this.litecoinBalance)
               markets = response.data.Markets
               this.totalBitcoinsRaised = this.bitcoinBalance
-              this.totalBitcoinsRaised += markets[0].Price * this.viacoinBalance
-              this.totalBitcoinsRaised += markets[1].Price * this.dashBalance
+              this.totalBitcoinsRaised += markets[0].Price * this.dashBalance
+              this.totalBitcoinsRaised += markets[1].Price * this.ethereumBalance
               this.totalBitcoinsRaised += markets[2].Price * this.litecoinBalance
-              this.totalBitcoinsRaised += markets[3].Price * this.ethereumBalance
+              this.totalBitcoinsRaised += markets[3].Price * this.viacoinBalance
               this.percentage = (this.totalBitcoinsRaised * this.goalBTC) * 100
             }).catch(error => {
               console.log(error)
