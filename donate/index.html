@@ -169,7 +169,7 @@ vaFWZMmlKBFI89D0FU1aQ/FmX0B8pg==
               this.totalBitcoinsRaised += markets[1].Price * this.ethereumBalance
               this.totalBitcoinsRaised += markets[2].Price * this.litecoinBalance
               this.totalBitcoinsRaised += markets[3].Price * this.viacoinBalance
-              this.percentage = (this.totalBitcoinsRaised * this.goalBTC) * 100
+              this.percentage = (this.totalBitcoinsRaised / this.goalBTC) * 100
             }).catch(error => {
               console.log(error)
             })
