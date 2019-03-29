@@ -336,13 +336,13 @@
 			},
 			{
 				"picture": "resources/bittrex.png",
-				"url": "https://upbit.com/exchange?code=CRIX.UPBIT.BTC-VIA",
+				"url": "https://bittrex.com/Market/Index?MarketName=BTC-VIA",
 				"delay": 200,
 				"styles": "height: 45px;"
 			},
 			{
 				"picture": "resources/upbit.png",
-				"url": "https://bittrex.com/Market/Index?MarketName=BTC-VIA",
+				"url": "https://upbit.com/exchange?code=CRIX.UPBIT.BTC-VIA",
 				"delay": 300,
 				"styles": "height: 39px;"
 			},
