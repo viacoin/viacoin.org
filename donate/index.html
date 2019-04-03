@@ -52,7 +52,7 @@
   <h4 class="card-header">Viacoin donations</h4>
   <div class="card-body"><p>The Viacoin development team partially relies on donations to fund the development and integration for services, exchanges and other third-party applications. In the past we have used community donations for hardware wallet implementations,
     exchange listings, being added to third party wallets, being added to iVendPay and more. A large sum of the required funds have been paid for by the development team and a few large Viacoin holders. Receiving more community donations would significantly help Viacoin grow and show the cryptocurrency space Viacoin's full potential.</p>
-    <p class="card-title">We calculate the amount in bitcoin</p>
+    <p class="card-title">We calculate the amount in bitcoin.</p>
     <br>
     <p class="card-text">BTC: {{ bitcoinAddress }}</p>
     <img v-bind:src= "'https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl' + bitcoinAddress" alt="viacoin bitcoin donation address">
@@ -72,26 +72,9 @@
   </div>
 </div>
 <br>
+
 <pre>
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
-
-BTC: 3E6MgSCAcanAe6NPXiNqWbypGzK4AyvYDL
-VIA: Vnr3CRQZQPWU91B7JS8RfQJjib4KDE5kMs
-Dash: Xpr5ZFS6skFU4VFu9SqpCNbEgWjzxpPZDj
-LTC: MFGKd5jcAp2ZBGzfm4DVWSBB8bdGiaYZcD
-ETH: 0x39f58a1Fd1b7aB742fF5A32670831EAb06D7f7c1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAEBCAAdFiEE+1u6Oha8avDSoh1hP5I2jw0hogYFAlx8PJ8ACgkQP5I2jw0h
-ogY89Af/Zmzn+W/J+8dXeAKcAkm4AYeZkymDItcbCWn0SP3KTY8+1WnDTaHGGMQr
-v+TMJ15/3VOc9IAEr+kbarKPUqd2UTSgieJ1dwoJsHskG4UoRnJ9ZTR17Z3KLkGN
-bnvx6bcvHxbYed1yoXTXd+WfJxskUV6gmqAtI1bZhoDTJuOIqh5SA3j3QoF7YuDS
-a7SKlB0og5wWWILGcS72av0Xy7MzoDSjxdoFyvMvTx35J6AiSPETAF9Ut8Bmjn8A
-ptfb3tVShxUfthfo85KehQ/IpFWjNJOWZ9zZNXqooU9ZO3ivmT6/SUXraN7WVSpF
-vaFWZMmlKBFI89D0FU1aQ/FmX0B8pg==
-=SAjQ
------END PGP SIGNATURE-----
+  Raised in March: 0.17877336 BTC (59.59%)
 </pre>
 <br>
         </div>
@@ -122,11 +105,11 @@ vaFWZMmlKBFI89D0FU1aQ/FmX0B8pg==
           goalBTC: 0.3,
           totalBitcoinsRaised: 0,
           percentage: 0,
-          bitcoinAddress: "3E6MgSCAcanAe6NPXiNqWbypGzK4AyvYDL",
+          bitcoinAddress: "3LfepvY4JgGWqgmM5A4zZfWL96d31MyAtu",
           dashAddress: "Xpr5ZFS6skFU4VFu9SqpCNbEgWjzxpPZDj",
           litecoinAddress: "MFGKd5jcAp2ZBGzfm4DVWSBB8bdGiaYZcD",
           ethereumAddress: "0x39f58a1Fd1b7aB742fF5A32670831EAb06D7f7c1",
-          viacoinAddress: "Vnr3CRQZQPWU91B7JS8RfQJjib4KDE5kMs",
+          viacoinAddress: "VdWDXPQ2zdW683MbP86vCCAWHkKf8jvkgi",
           bitcoinBalance: 0,
           viacoinBalance: 0,
           dashBalance: 0,
@@ -149,7 +132,7 @@ vaFWZMmlKBFI89D0FU1aQ/FmX0B8pg==
             axios.get('https://api.etherscan.io/api?module=account&action=balance&address='+this.ethereumAddress)])
           .then(axios.spread(function (firstResponse, secondResponse, thirdResponse, fourthResponse, fifthResponse) {
             ethereumBalance = fifthResponse.data.result / 1000000000000000000
-            callback(firstResponse.data.balance, secondResponse.data.balance, thirdResponse.data.balance, fourthResponse.data.balance, ethereumBalance)
+            callback(firstResponse.data.totalReceived, secondResponse.data.totalReceived, thirdResponse.data.totalReceived, fourthResponse.data.totalReceived, ethereumBalance)
           }))
         },
 
