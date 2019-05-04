@@ -359,12 +359,6 @@
 				"styles": "height: 55px;"
 			},
 			{
-				"picture": "resources/coinroom.png",
-				"url": "https://coinroom.com/",
-				"delay": 600,
-				"styles": "height: 35px;"
-			},
-			{
 				"picture": "resources/barterdex.png",
 				"url": "http://www.barterdex.com/",
 				"delay": 700,
