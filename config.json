@@ -174,8 +174,7 @@
 		{
 			"progress": 70,
 			"title": "VIACOIN CORE 0.18",
-			"text": "Viacoin Core 0.18 will feature the following: hardware wallet support, GUI Support for Multiwallet Feature, Refinements to Output Script Descriptors Language, several bug fixes and other optimizations."
-",
+			"text": "Viacoin Core 0.18 will feature the following: hardware wallet support, GUI Support for Multiwallet Feature, Refinements to Output Script Descriptors Language, several bug fixes and other optimizations.",
 			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
 		},
 		{
