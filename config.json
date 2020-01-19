@@ -407,7 +407,14 @@
 				"url": "https://pungo.krd/",
 				"delay": 200,
 				"styles": "height: 38px;"
+			},
+			{
+				"picture": "resources/changeangel.png",
+				"url": "https://changeangel.io/",
+				"delay": 200,
+				"styles": "height: 60px;"
 			}
+			
 		]
 	},
 	"vendors": [
