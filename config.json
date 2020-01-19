@@ -7,7 +7,7 @@
 			"<div class=\"columns is-vcentered\"><div class=\"column is-three-fifths has-text-left\"><span class=\"tag is-success is-medium\">NEW</span><h1 class=\"title is-1 is-spaced has-text-weight-normal has-text-black-ter\"><strong>IVENDPAY</strong> VENDING MACHINE SUPPORT</h1><h2 class=\"subtitle\">Viacoin has been added to iVendPay, world's first multi-currency payment system that allows you to accept payments in cryptocurrencies, electronic money or fiat. With iVendPay Viacoin can be accepted on over 18,000,000 vending machines worldwide.</h2></div><div class=\"column\"><img src=\"intro/ivendpay.png\" alt=\"iVendPay\" title=\"iVendPay\"/></div></div>",
 			"<div class=\"columns is-vcentered\"><div class=\"column is-half has-text-left\"><span class=\"tag is-success is-medium\">NEW</span><h1 class=\"title is-1 is-spaced has-text-weight-normal has-text-black-ter\">INTRODUCING <strong>BTCPAY</strong> <strong>SUPPORT</strong></h1><h2 class=\"subtitle\">Viacoin support has been added to BTCpay, meaning that merchants from all over the world can start accepting Viacoin as a payment method. BTCPay Server is an Open Source payment processor that conforms to the invoice API of Bitpay.</h2></div><div class=\"column is-half\"><img src=\"intro/btcpay.png\" alt=\"BTCpay\" title=\"BTCpay\"/></div></div>",
 			"<div class=\"columns is-vcentered\"><div class=\"column is-three-fifths has-text-left\"><span class=\"tag is-success is-medium\">NEW</span><h1 class=\"title is-1 is-spaced has-text-weight-normal has-text-black-ter\"><strong>VIACOIN COPAY</strong> MULTISIGNATURE WALLET</h1><h2 class=\"subtitle\">Viacoin has launched its multisignature wallet. The Viacoin Copay app securely stores multiple, distinct viacoin wallets, allowing both business and privacy-conscious users to keep funds carefully separated. Manage personal, business, and testnet wallets easily, all without leaving the app. Viacoin Copay uses hierarchical-deterministic (HD) wallets, allowing for secure in-app wallet generation and backup.</h2></div><div class=\"column\"><img src=\"intro/copay.png\" alt=\"Copay\" title=\"Copay\"/></div></div>",
-		        "<div class=\"columns is-vcentered\"><div class=\"column is-half has-text-left\"><span class=\"tag is-success is-medium\">NEW</span><h1 class=\"title is-1 is-spaced has-text-weight-normal has-text-black-ter\">INTRODUCING <strong>HARDWARE</strong> <strong>WALLET SUPPORT</strong></h1><h2 class=\"subtitle\">Viacoin has Ledger Nano S and Ledger Blue support. By embedding the private keys on the chip Ledger provides the safest wallet solution known to the market.</h2></div><div class=\"column is-half\"><img src=\"intro/ledger.png\" alt=\"Ledger\" title=\"Ledger\"/></div></div>"
+		        "<div class=\"columns is-vcentered\"><div class=\"column is-half has-text-left\"><span class=\"tag is-success is-medium\">NEW</span><h1 class=\"title is-1 is-spaced has-text-weight-normal has-text-black-ter\">INTRODUCING <strong>HARDWARE</strong> <strong>WALLET SUPPORT</strong></h1><h2 class=\"subtitle\">Viacoin has Ledger Nano S, Ledger Nano X and Ledger Blue support. By embedding the private keys on the chip Ledger provides the safest wallet solution known to the market.</h2></div><div class=\"column is-half\"><img src=\"intro/ledger.png\" alt=\"Ledger\" title=\"Ledger\"/></div></div>"
 		]
 	},
 	"features": [{
@@ -41,30 +41,30 @@
 				"os": [{
 						"icon": "WindowsIcon",
 						"title": "Windows 64-bit",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.2/viacoin-0.15.2-win64-setup-unsigned.exe",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.16.3/viacoin-0.16.3-win64-setup-unsigned.exe",
 						"button": "Download",
-						"version": ["Viacoin Core", "0.15.2"]
+						"version": ["Viacoin Core", "0.16.3"]
 					},
 					{
 						"icon": "WindowsIcon",
 						"title": "Windows 32-bit",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.2/viacoin-0.15.2-win32-setup-unsigned.exe",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.16.3/viacoin-0.16.3-win32-setup-unsigned.exe",
 						"button": "Download",
-						"version": ["Viacoin Core", "0.15.2"]
+						"version": ["Viacoin Core", "0.16.3"]
 					},
 					{
 						"icon": "MacOsIcon",
 						"title": "Mac OSX",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.2/viacoin-0.15.2-osx-unsigned.dmg",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.16.3/viacoin-0.16.3-osx-unsigned.dmg",
 						"button": "Download",
-						"version": ["Viacoin Core", "0.15.2"]
+						"version": ["Viacoin Core", "0.16.3"]
 					},
 					{
 						"icon": "LinuxIcon",
 						"title": "Linux",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.2/viacoin-0.15.2-x86_64-linux-gnu.tar.gz",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.16.3/viacoin-0.16.3-x86_64-linux-gnu.tar.gz",
 						"button": "Download",
-						"version": ["Viacoin Core", "0.15.2"]
+						"version": ["Viacoin Core", "0.16.3"]
 					}
 				]
 			},
@@ -94,7 +94,7 @@
 			{
 				"icon": "LedgerIcon",
 				"title": "Ledger hardware wallets",
-				"url": "https://www.ledgerwallet.com",
+				"url": "https://www.ledger.com",
 				"button": "Buy"
 			},
 			{
@@ -156,7 +156,13 @@
 		{
 			"progress": 100,
 			"title": "VIALECTRUM 3.2.2",
-			"text": "Vialectrum is a fast, secure and very easy to use lightweight Viacoin client. Your funds are securely stored and can easily be recovered from any device using a secret phrase. Vialectrum 3.2.2 comes with faster transaction signing, hardware wallet improvements, an optional 'dark theme', several bug fixes and more.",
+			"text": "Vialectrum 3.2.2 comes with faster transaction signing, hardware wallet improvements, an optional 'dark theme', several bug fixes and more.",
+			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
+		},
+		{
+			"progress": 100,
+			"title": "VIALECTRUM 3.3.8",
+			"text": "Vialectrum 3.3.8 comes with faster transaction signing, bump fee (RBF) improvement, hardware wallet improvements, added new fiat providers, added testnet mode warning, several bug fixes and more.",
 			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
 		},
 		{
@@ -226,7 +232,7 @@
 			"icons": []
 		},
 		{
-			"progress": 95,
+			"progress": 100,
 			"title": "C-LIGHTNING",
 			"text": "C-lightning is a standard compliant implementation of the Lightning Network protocol. The Lightning Network is a scalability solution for Viacoin, enabling secure and instant transfer of funds between any two parties for any amount.",
 			"icons": []
@@ -353,26 +359,14 @@
 				"styles": "height: 39px;"
 			},
 			{
-				"picture": "resources/poloniex.png",
-				"url": "https://poloniex.com/exchange/btc_via",
-				"delay": 400,
-				"styles": "height: 35px;"
-			},
-			{
 				"picture": "resources/yobit.png",
 				"url": "https://yobit.net/en/trade/VIA/BTC",
 				"delay": 500,
 				"styles": "height: 55px;"
 			},
 			{
-				"picture": "resources/barterdex.png",
-				"url": "http://www.barterdex.com/",
-				"delay": 700,
-				"styles": "height: 35px;"
-			},
-			{
 				"picture": "resources/peer2cash.png",
-				"url": "https://peer2.cash",
+				"url": "https://pungo.cash",
 				"delay": 800,
 				"styles": "height: 35px;"
 			}
@@ -404,10 +398,17 @@
 			},
 			{
 				"picture": "resources/peer2krd.png",
-				"url": "https://peer2.krd",
+				"url": "https://pungo.krd/",
 				"delay": 200,
 				"styles": "height: 38px;"
+			},
+			{
+				"picture": "resources/changeangel.png",
+				"url": "https://changeangel.io/",
+				"delay": 200,
+				"styles": "height: 60px;"
 			}
+			
 		]
 	},
 	"vendors": [
@@ -426,13 +427,6 @@
 			"styles": "max-width: 250px;"
 		},
 		{
-			"name": "Blockchaindenim.com",
-			"picture": "vendors/blockchaindenim.png",
-			"url": "https://www.blockchaindenim.com/",
-			"title": "Quality blockchain fashion.",
-			"styles": "max-width: 250px;"
-		},
-		{
 			"name": "CryptocurrencyPosters.com",
 			"picture": "vendors/cryptoposters.png",
 			"url": "https://www.cryptocurrencyposters.com/",
@@ -444,13 +438,6 @@
 			"picture": "vendors/paulmanacre.png",
 			"url": "https://www.paulmanacre.com/",
 			"title": "Homemade delicious hot sauces.",
-			"styles": "max-width: 180px;"
-		},
-		{
-			"name": "BitcoinSuperstore.us",
-			"picture": "vendors/bitcoin-superstore-logo.png",
-			"url": "https://BitcoinSuperstore.us",
-			"title": "Buy goods from over 200,000 retailers!",
 			"styles": "max-width: 180px;"
 		}
 	],
