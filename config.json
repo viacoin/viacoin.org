@@ -232,7 +232,7 @@
 			"icons": []
 		},
 		{
-			"progress": 95,
+			"progress": 100,
 			"title": "C-LIGHTNING",
 			"text": "C-lightning is a standard compliant implementation of the Lightning Network protocol. The Lightning Network is a scalability solution for Viacoin, enabling secure and instant transfer of funds between any two parties for any amount.",
 			"icons": []
