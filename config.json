@@ -359,12 +359,6 @@
 				"styles": "height: 39px;"
 			},
 			{
-				"picture": "resources/poloniex.png",
-				"url": "https://poloniex.com/exchange/btc_via",
-				"delay": 400,
-				"styles": "height: 35px;"
-			},
-			{
 				"picture": "resources/yobit.png",
 				"url": "https://yobit.net/en/trade/VIA/BTC",
 				"delay": 500,
