@@ -41,30 +41,30 @@
 				"os": [{
 						"icon": "WindowsIcon",
 						"title": "Windows 64-bit",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.2/viacoin-0.15.2-win64-setup-unsigned.exe",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.16.3/viacoin-0.16.3-win64-setup-unsigned.exe",
 						"button": "Download",
-						"version": ["Viacoin Core", "0.15.2"]
+						"version": ["Viacoin Core", "0.16.3"]
 					},
 					{
 						"icon": "WindowsIcon",
 						"title": "Windows 32-bit",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.2/viacoin-0.15.2-win32-setup-unsigned.exe",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.16.3/viacoin-0.16.3-win32-setup-unsigned.exe",
 						"button": "Download",
-						"version": ["Viacoin Core", "0.15.2"]
+						"version": ["Viacoin Core", "0.16.3"]
 					},
 					{
 						"icon": "MacOsIcon",
 						"title": "Mac OSX",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.2/viacoin-0.15.2-osx-unsigned.dmg",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.16.3/viacoin-0.16.3-osx-unsigned.dmg",
 						"button": "Download",
-						"version": ["Viacoin Core", "0.15.2"]
+						"version": ["Viacoin Core", "0.16.3"]
 					},
 					{
 						"icon": "LinuxIcon",
 						"title": "Linux",
-						"url": "https://github.com/viacoin/viacoin/releases/download/v0.15.2/viacoin-0.15.2-x86_64-linux-gnu.tar.gz",
+						"url": "https://github.com/viacoin/viacoin/releases/download/v0.16.3/viacoin-0.16.3-x86_64-linux-gnu.tar.gz",
 						"button": "Download",
-						"version": ["Viacoin Core", "0.15.2"]
+						"version": ["Viacoin Core", "0.16.3"]
 					}
 				]
 			},
