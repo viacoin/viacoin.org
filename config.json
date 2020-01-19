@@ -156,7 +156,13 @@
 		{
 			"progress": 100,
 			"title": "VIALECTRUM 3.2.2",
-			"text": "Vialectrum is a fast, secure and very easy to use lightweight Viacoin client. Your funds are securely stored and can easily be recovered from any device using a secret phrase. Vialectrum 3.2.2 comes with faster transaction signing, hardware wallet improvements, an optional 'dark theme', several bug fixes and more.",
+			"text": "Vialectrum 3.2.2 comes with faster transaction signing, hardware wallet improvements, an optional 'dark theme', several bug fixes and more.",
+			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
+		},
+		{
+			"progress": 100,
+			"title": "VIALECTRUM 3.3.8",
+			"text": "Vialectrum 3.3.8 comes with faster transaction signing, bump fee (RBF) improvement, hardware wallet improvements, added new fiat providers, added testnet mode warning, several bug fixes and more.",
 			"icons": ["WindowsIcon", "MacOsIcon", "LinuxIcon"]
 		},
 		{
