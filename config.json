@@ -94,7 +94,7 @@
 			{
 				"icon": "LedgerIcon",
 				"title": "Ledger hardware wallets",
-				"url": "https://www.ledgerwallet.com",
+				"url": "https://www.ledger.com",
 				"button": "Buy"
 			},
 			{
@@ -378,7 +378,7 @@
 			},
 			{
 				"picture": "resources/peer2cash.png",
-				"url": "https://peer2.cash",
+				"url": "https://pungo.cash",
 				"delay": 800,
 				"styles": "height: 35px;"
 			}
@@ -410,7 +410,7 @@
 			},
 			{
 				"picture": "resources/peer2krd.png",
-				"url": "https://peer2.krd",
+				"url": "https://pungo.krd/",
 				"delay": 200,
 				"styles": "height: 38px;"
 			}
