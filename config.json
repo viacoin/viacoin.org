@@ -365,12 +365,6 @@
 				"styles": "height: 55px;"
 			},
 			{
-				"picture": "resources/barterdex.png",
-				"url": "http://www.barterdex.com/",
-				"delay": 700,
-				"styles": "height: 35px;"
-			},
-			{
 				"picture": "resources/peer2cash.png",
 				"url": "https://pungo.cash",
 				"delay": 800,
@@ -433,13 +427,6 @@
 			"styles": "max-width: 250px;"
 		},
 		{
-			"name": "Blockchaindenim.com",
-			"picture": "vendors/blockchaindenim.png",
-			"url": "https://www.blockchaindenim.com/",
-			"title": "Quality blockchain fashion.",
-			"styles": "max-width: 250px;"
-		},
-		{
 			"name": "CryptocurrencyPosters.com",
 			"picture": "vendors/cryptoposters.png",
 			"url": "https://www.cryptocurrencyposters.com/",
@@ -453,13 +440,6 @@
 			"title": "Homemade delicious hot sauces.",
 			"styles": "max-width: 180px;"
 		},
-		{
-			"name": "BitcoinSuperstore.us",
-			"picture": "vendors/bitcoin-superstore-logo.png",
-			"url": "https://BitcoinSuperstore.us",
-			"title": "Buy goods from over 200,000 retailers!",
-			"styles": "max-width: 180px;"
-		}
 	],
 	"donate": [{
 			"name": "Viacoin",
