@@ -308,7 +308,8 @@
 			"name": "Mike",
 			"job": "Marketing",
 			"picture": "team/mikev.svg",
-			"icons": ["TwitterIcon"],
+			"icons": [],
+			"url": []
 		},
 		{
 			"name": "CR-MN",
