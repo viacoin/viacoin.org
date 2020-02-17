@@ -305,11 +305,11 @@
 			"url": ["https://github.com/rockstardev", "https://twitter.com/@r0ckstardev"]
 		},
 		{
-			"name": "Mike V",
-			"job": "Head of Marketing",
+			"name": "Mike",
+			"job": "Marketing",
 			"picture": "team/mikev.svg",
-			"icons": ["TwitterIcon"],
-			"url": ["https://www.twitter.com/Mike__V_"]
+			"icons": [],
+			"url": []
 		},
 		{
 			"name": "CR-MN",
